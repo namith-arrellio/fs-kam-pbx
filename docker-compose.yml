@@ -1,0 +1,44 @@
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: mysql
+    restart: unless-stopped
+    command: --default-authentication-plugin=mysql_native_password
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=voipdb
+      - MYSQL_USER=kamailio
+      - MYSQL_PASSWORD=kamailiopw
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./mysql/data:/var/lib/mysql
+    networks:
+      - voipnet
+
+  # === Adminer (web DB interface) ===
+  adminer:
+    image: adminer
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    networks:
+      - voipnet
+  
+  kamailio:
+    image: ghcr.io/kamailio/kamailio:5.8.2-jammy
+    platform: linux/amd64
+    container_name: kamailio
+    networks:
+      - voipnet
+    ports:
+      - "5060:5060/udp"
+      - "5060:5060/tcp"
+    volumes:
+      - ./kamailio/kamailio.cfg:/etc/kamailio/kamailio.cfg:ro
+    depends_on:
+      - mysql
+
+networks:
+  voipnet:
+    driver: bridge 
