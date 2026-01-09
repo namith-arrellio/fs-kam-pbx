@@ -21438,3 +21438,720 @@ a2472356-796f-4ea8-8772-ddddb8df6d8c 2026-01-09 11:57:34.081030 100.00% [DEBUG] 
 09879160-2c4c-4b71-a742-ce3835dba0a8 2026-01-09 11:57:34.091026 100.00% [DEBUG] mod_sofia.c:380 sofia/internal/1000@store2.local:5060 SOFIA DESTROY
 09879160-2c4c-4b71-a742-ce3835dba0a8 2026-01-09 11:57:34.091026 100.00% [DEBUG] switch_core_state_machine.c:175 sofia/internal/1000@store2.local:5060 Standard DESTROY
 09879160-2c4c-4b71-a742-ce3835dba0a8 2026-01-09 11:57:34.091026 100.00% [DEBUG] switch_core_state_machine.c:745 (sofia/internal/1000@store2.local:5060) State DESTROY going to sleep
+2026-01-09 11:58:01.191034 100.00% [DEBUG] sofia_reg.c:2649 Changing expire time to 579 by request of proxy sip:sip.telnyx.com
+2026-01-09 12:00:29.301036 100.00% [DEBUG] sofia_reg.c:2649 Changing expire time to 584 by request of proxy sip:sip.telnyx.com
+2026-01-09 12:01:50.161048 100.00% [DEBUG] sofia.c:2115 nua_i_outbound: unknown event 8: 102 NAT binding changed
+2026-01-09 12:01:50.351033 100.00% [DEBUG] sofia_reg.c:2649 Changing expire time to 576 by request of proxy sip:sip.telnyx.com
+2026-01-09 12:03:51.831027 100.00% [INFO] mod_enum.c:884 ENUM Reloaded
+2026-01-09 12:03:51.831027 100.00% [INFO] switch_time.c:1436 Timezone reloaded 597 definitions
+2026-01-09 12:04:08.331025 100.00% [DEBUG] sofia.c:2115 nua_i_outbound: unknown event 8: 102 NAT binding changed
+2026-01-09 12:04:08.521034 100.00% [DEBUG] sofia_reg.c:2649 Changing expire time to 591 by request of proxy sip:sip.telnyx.com
+2026-01-09 12:04:16.191022 100.00% [INFO] mod_enum.c:884 ENUM Reloaded
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 debug [0]
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 sip-trace [no]
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 sip-capture [no]
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 watchdog-enabled [no]
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 watchdog-step-timeout [30000]
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 watchdog-event-timeout [30000]
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 log-auth-failures [false]
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 forward-unsolicited-mwi-notify [false]
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 context [public]
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 rfc2833-pt [101]
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 sip-port [5060]
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 dialplan [XML]
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 dtmf-duration [2000]
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 inbound-codec-prefs [OPUS,G722,PCMU,PCMA,H264,VP8]
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 outbound-codec-prefs [OPUS,G722,PCMU,PCMA,H264,VP8]
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 rtp-timer-name [soft]
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 rtp-ip [auto]
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 sip-ip [auto]
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 hold-music [local_stream://moh]
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 apply-nat-acl [rfc1918.auto]
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 apply-inbound-acl [domains]
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 local-network-acl [localnet.auto]
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 record-path [/opt/homebrew/Cellar/freeswitch/1.10.12/var/lib/freeswitch/recordings]
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 record-template [${caller_id_number}.${target_domain}.${strftime(%Y-%m-%d-%H-%M-%S)}.wav]
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 manage-presence [true]
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 presence-probe-on-register [true]
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 presence-hosts [auto,auto]
+2026-01-09 12:04:16.191022 100.00% [INFO] switch_time.c:1436 Timezone reloaded 597 definitions
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 presence-privacy [false]
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 inbound-codec-negotiation [generous]
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 tls [false]
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 tls-only [false]
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 tls-bind-params [transport=tls]
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 tls-sip-port [5061]
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 tls-passphrase []
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 tls-verify-date [true]
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 tls-verify-policy [none]
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 tls-verify-depth [2]
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 tls-verify-in-subjects []
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 tls-version [tlsv1,tlsv1.1,tlsv1.2]
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 tls-ciphers [ALL:!ADH:!LOW:!EXP:!MD5:@STRENGTH]
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 inbound-late-negotiation [true]
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 nonce-ttl [60]
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 auth-calls [true]
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 auth-subscriptions [true]
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 inbound-reg-force-matching-username [true]
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 auth-all-packets [false]
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 ext-rtp-ip [172.20.10.10]
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 ext-sip-ip [172.20.10.10]
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 rtp-timeout-sec [300]
+2026-01-09 12:04:16.191022 100.00% [WARNING] sofia.c:5328 rtp-timeout-sec deprecated use media_timeout variable.
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 rtp-hold-timeout-sec [1800]
+2026-01-09 12:04:16.191022 100.00% [WARNING] sofia.c:5335 rtp-hold-timeout-sec deprecated use media_hold_timeout variable.
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 ws-binding [:5066]
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 wss-binding [:7443]
+2026-01-09 12:04:16.191022 100.00% [DEBUG] sofia.c:4727 challenge-realm [auto_from]
+2026-01-09 12:04:16.191022 100.00% [INFO] sofia.c:6187 Setting MAX Auth Validity to 0 Attempts
+2026-01-09 12:04:19.481074 100.00% [NOTICE] mod_signalwire.c:401 Go to https://signalwire.com to set up your Connector now! Enter connection token a0a777a9-7957-4a1b-b123-27300225f4f1
+2026-01-09 12:04:19.481074 100.00% [INFO] mod_signalwire.c:1125 Next SignalWire adoption check in 13 minutes
+2026-01-09 12:06:47.411024 100.00% [DEBUG] sofia.c:2115 nua_i_outbound: unknown event 8: 102 NAT binding changed
+2026-01-09 12:06:47.561024 100.00% [DEBUG] sofia.c:2115 nua_i_outbound: unknown event 8: 102 NAT binding changed
+2026-01-09 12:06:47.561024 100.00% [DEBUG] sofia_reg.c:2649 Changing expire time to 598 by request of proxy sip:sip.telnyx.com
+2026-01-09 12:09:24.861030 100.00% [DEBUG] sofia.c:2115 nua_i_outbound: unknown event 8: 102 NAT binding changed
+2026-01-09 12:09:24.861030 100.00% [DEBUG] sofia_reg.c:2649 Changing expire time to 583 by request of proxy sip:sip.telnyx.com
+2026-01-09 12:12:19.791048 100.00% [DEBUG] sofia.c:2115 nua_i_outbound: unknown event 8: 102 NAT binding changed
+2026-01-09 12:12:19.971035 100.00% [DEBUG] sofia.c:2115 nua_i_outbound: unknown event 8: 102 NAT binding changed
+2026-01-09 12:12:19.971035 100.00% [DEBUG] sofia_reg.c:2649 Changing expire time to 583 by request of proxy sip:sip.telnyx.com
+2026-01-09 12:12:31.021027 100.00% [DEBUG] sofia_reg.c:2649 Changing expire time to 583 by request of proxy sip:sip.telnyx.com
+2026-01-09 12:17:20.221023 100.00% [NOTICE] mod_signalwire.c:401 Go to https://signalwire.com to set up your Connector now! Enter connection token a0a777a9-7957-4a1b-b123-27300225f4f1
+2026-01-09 12:17:20.221023 100.00% [INFO] mod_signalwire.c:1125 Next SignalWire adoption check in 14 minutes
+2026-01-09 12:17:38.161050 100.00% [DEBUG] sofia.c:2115 nua_i_outbound: unknown event 8: 102 NAT binding changed
+2026-01-09 12:17:38.341049 100.00% [DEBUG] sofia_reg.c:2649 Changing expire time to 584 by request of proxy sip:sip.telnyx.com
+2026-01-09 12:18:57.080503 100.00% [DEBUG] sofia.c:2115 nua_i_outbound: unknown event 8: 102 NAT binding changed
+2026-01-09 12:18:57.181027 100.00% [DEBUG] sofia_reg.c:2649 Changing expire time to 584 by request of proxy sip:sip.telnyx.com
+2026-01-09 12:21:17.151030 100.00% [DEBUG] sofia.c:2115 nua_i_outbound: unknown event 8: 102 NAT binding changed
+2026-01-09 12:21:18.181021 100.00% [DEBUG] sofia_reg.c:2649 Changing expire time to 580 by request of proxy sip:sip.telnyx.com
+2026-01-09 12:25:48.421029 100.00% [DEBUG] sofia.c:2115 nua_i_outbound: unknown event 8: 102 NAT binding changed
+2026-01-09 12:25:48.631043 100.00% [DEBUG] sofia_reg.c:2649 Changing expire time to 593 by request of proxy sip:sip.telnyx.com
+2026-01-09 12:28:17.501125 100.00% [DEBUG] sofia.c:2115 nua_i_outbound: unknown event 8: 102 NAT binding changed
+2026-01-09 12:28:17.641028 100.00% [DEBUG] sofia_reg.c:2649 Changing expire time to 584 by request of proxy sip:sip.telnyx.com
+2026-01-09 12:30:31.771059 100.00% [DEBUG] sofia.c:2115 nua_i_outbound: unknown event 8: 102 NAT binding changed
+2026-01-09 12:30:31.791024 100.00% [DEBUG] sofia.c:2115 nua_i_outbound: unknown event 8: 102 NAT binding changed
+2026-01-09 12:30:31.791024 100.00% [DEBUG] sofia_reg.c:2649 Changing expire time to 579 by request of proxy sip:sip.telnyx.com
+2026-01-09 12:31:21.051024 100.00% [NOTICE] mod_signalwire.c:401 Go to https://signalwire.com to set up your Connector now! Enter connection token a0a777a9-7957-4a1b-b123-27300225f4f1
+2026-01-09 12:31:21.051024 100.00% [INFO] mod_signalwire.c:1125 Next SignalWire adoption check in 15 minutes
+2026-01-09 12:33:47.791034 100.00% [DEBUG] sofia.c:2115 nua_i_outbound: unknown event 8: 102 NAT binding changed
+2026-01-09 12:33:48.011031 100.00% [DEBUG] sofia.c:2115 nua_i_outbound: unknown event 8: 102 NAT binding changed
+2026-01-09 12:33:48.011031 100.00% [DEBUG] sofia_reg.c:2649 Changing expire time to 595 by request of proxy sip:sip.telnyx.com
+2026-01-09 12:36:48.001028 100.00% [DEBUG] sofia.c:2115 nua_i_outbound: unknown event 8: 102 NAT binding changed
+2026-01-09 12:36:48.181037 100.00% [DEBUG] sofia.c:2115 nua_i_outbound: unknown event 8: 102 NAT binding changed
+2026-01-09 12:36:48.181037 100.00% [DEBUG] sofia_reg.c:2649 Changing expire time to 582 by request of proxy sip:sip.telnyx.com
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.491037 100.00% [NOTICE] switch_channel.c:1142 New Channel sofia/external/7373518737@sip.telnyx.com [47f7b2bc-b39c-45e7-8e98-5eac70b468a4]
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.491037 100.00% [DEBUG] switch_core_state_machine.c:581 (sofia/external/7373518737@sip.telnyx.com) Running State Change CS_NEW (Cur 1 Tot 51)
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.491037 100.00% [INFO] sofia.c:10460 sofia/external/7373518737@sip.telnyx.com receiving invite from 192.76.120.10:5060 version: 1.10.12-release git a88d069 2024-08-02 21:02:27Z 64bit call-id: d81ca83d-d844-4bd9-8b2f-2e61783d1eb0
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.491037 100.00% [DEBUG] sofia.c:7493 Channel sofia/external/7373518737@sip.telnyx.com entering state [received][100]
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.491037 100.00% [DEBUG] sofia.c:7503 Remote SDP:
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 v=0
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 o=Telnyx 1767964948 1767964949 IN IP4 50.114.149.47
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 s=Telnyx
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 c=IN IP4 50.114.149.47
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 t=0 0
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 m=audio 19030 RTP/AVP 0 9 8 18 101
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 a=rtpmap:0 PCMU/8000
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 a=rtpmap:9 G722/8000
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 a=rtpmap:8 PCMA/8000
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 a=rtpmap:18 G729/8000
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 a=fmtp:18 annexb=no
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 a=rtpmap:101 telephone-event/8000
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 a=fmtp:101 0-15
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 a=rtcp:19031 IN IP4 50.114.149.47
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 a=ptime:20
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.491037 100.00% [DEBUG] sofia.c:7906 (sofia/external/7373518737@sip.telnyx.com) State Change CS_NEW -> CS_INIT
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.491037 100.00% [DEBUG] switch_core_state_machine.c:600 (sofia/external/7373518737@sip.telnyx.com) State NEW
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.491037 100.00% [DEBUG] switch_core_state_machine.c:581 (sofia/external/7373518737@sip.telnyx.com) Running State Change CS_INIT (Cur 1 Tot 51)
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.491037 100.00% [DEBUG] switch_core_state_machine.c:624 (sofia/external/7373518737@sip.telnyx.com) State INIT
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.491037 100.00% [DEBUG] mod_sofia.c:97 sofia/external/7373518737@sip.telnyx.com SOFIA INIT
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.491037 100.00% [DEBUG] switch_core_state_machine.c:40 sofia/external/7373518737@sip.telnyx.com Standard INIT
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.491037 100.00% [DEBUG] switch_core_state_machine.c:48 (sofia/external/7373518737@sip.telnyx.com) State Change CS_INIT -> CS_ROUTING
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.491037 100.00% [DEBUG] switch_core_state_machine.c:624 (sofia/external/7373518737@sip.telnyx.com) State INIT going to sleep
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.491037 100.00% [DEBUG] switch_core_state_machine.c:581 (sofia/external/7373518737@sip.telnyx.com) Running State Change CS_ROUTING (Cur 1 Tot 51)
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.491037 100.00% [DEBUG] switch_channel.c:2399 (sofia/external/7373518737@sip.telnyx.com) Callstate Change DOWN -> RINGING
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.491037 100.00% [DEBUG] switch_core_state_machine.c:640 (sofia/external/7373518737@sip.telnyx.com) State ROUTING
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.491037 100.00% [DEBUG] mod_sofia.c:158 sofia/external/7373518737@sip.telnyx.com SOFIA ROUTING
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.491037 100.00% [DEBUG] switch_core_state_machine.c:230 sofia/external/7373518737@sip.telnyx.com Standard ROUTING
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.491037 100.00% [INFO] mod_dialplan_xml.c:639 Processing 7373518737 <7373518737>->17372449688 in context public
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 Dialplan: sofia/external/7373518737@sip.telnyx.com parsing [public->unloop] continue=false
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 Dialplan: sofia/external/7373518737@sip.telnyx.com Regex (PASS) [unloop] ${unroll_loops}(true) =~ /^true$/ break=on-false
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 Dialplan: sofia/external/7373518737@sip.telnyx.com Regex (FAIL) [unloop] ${sip_looped_call}() =~ /^true$/ break=on-false
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 Dialplan: sofia/external/7373518737@sip.telnyx.com parsing [public->outside_call] continue=true
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 Dialplan: sofia/external/7373518737@sip.telnyx.com Absolute Condition [outside_call]
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 Dialplan: sofia/external/7373518737@sip.telnyx.com Action set(outside_call=true)
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 Dialplan: sofia/external/7373518737@sip.telnyx.com Action export(RFC2822_DATE=${strftime(%a, %d %b %Y %T %z)})
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 Dialplan: sofia/external/7373518737@sip.telnyx.com parsing [public->call_debug] continue=true
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 Dialplan: sofia/external/7373518737@sip.telnyx.com Regex (FAIL) [call_debug] ${call_debug}(false) =~ /^true$/ break=never
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 Dialplan: sofia/external/7373518737@sip.telnyx.com parsing [public->public_extensions] continue=false
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 Dialplan: sofia/external/7373518737@sip.telnyx.com Regex (FAIL) [public_extensions] destination_number(17372449688) =~ /^(10[01][0-9])$/ break=on-false
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 Dialplan: sofia/external/7373518737@sip.telnyx.com parsing [public->public_conference_extensions] continue=false
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 Dialplan: sofia/external/7373518737@sip.telnyx.com Regex (FAIL) [public_conference_extensions] destination_number(17372449688) =~ /^(3[5-8][01][0-9])$/ break=on-false
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 Dialplan: sofia/external/7373518737@sip.telnyx.com parsing [public->store1_inbound] continue=false
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 Dialplan: sofia/external/7373518737@sip.telnyx.com Regex (FAIL) [store1_inbound] destination_number(17372449688) =~ /^(\+?1?7577828734)$/ break=on-false
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 Dialplan: sofia/external/7373518737@sip.telnyx.com parsing [public->store2_inbound] continue=false
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 Dialplan: sofia/external/7373518737@sip.telnyx.com Regex (PASS) [store2_inbound] destination_number(17372449688) =~ /^(\+?1?7372449688)$/ break=on-false
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 Dialplan: sofia/external/7373518737@sip.telnyx.com Action set(domain_name=store2.local)
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 Dialplan: sofia/external/7373518737@sip.telnyx.com Action set(transfer_context=store2)
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 Dialplan: sofia/external/7373518737@sip.telnyx.com Action set(ringback=${us-ring})
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 Dialplan: sofia/external/7373518737@sip.telnyx.com Action set(call_timeout=30)
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 Dialplan: sofia/external/7373518737@sip.telnyx.com Action set(hangup_after_bridge=true)
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 Dialplan: sofia/external/7373518737@sip.telnyx.com Action set(continue_on_fail=true)
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 Dialplan: sofia/external/7373518737@sip.telnyx.com Action bridge({leg_timeout=30,ignore_early_media=true}user/1000@store2.local,user/1001@store2.local)
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 Dialplan: sofia/external/7373518737@sip.telnyx.com Action answer()
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 Dialplan: sofia/external/7373518737@sip.telnyx.com Action sleep(1000)
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 Dialplan: sofia/external/7373518737@sip.telnyx.com Action voicemail(default store2.local 1000)
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.491037 100.00% [DEBUG] switch_core_state_machine.c:281 (sofia/external/7373518737@sip.telnyx.com) State Change CS_ROUTING -> CS_EXECUTE
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.491037 100.00% [DEBUG] switch_core_state_machine.c:640 (sofia/external/7373518737@sip.telnyx.com) State ROUTING going to sleep
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.491037 100.00% [DEBUG] switch_core_state_machine.c:581 (sofia/external/7373518737@sip.telnyx.com) Running State Change CS_EXECUTE (Cur 1 Tot 51)
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.491037 100.00% [DEBUG] switch_core_state_machine.c:647 (sofia/external/7373518737@sip.telnyx.com) State EXECUTE
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.491037 100.00% [DEBUG] mod_sofia.c:213 sofia/external/7373518737@sip.telnyx.com SOFIA EXECUTE
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.491037 100.00% [DEBUG] switch_core_state_machine.c:323 sofia/external/7373518737@sip.telnyx.com Standard EXECUTE
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 EXECUTE [depth=0] sofia/external/7373518737@sip.telnyx.com set(outside_call=true)
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.491037 100.00% [DEBUG] mod_dptools.c:1671 SET sofia/external/7373518737@sip.telnyx.com [outside_call]=[true]
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 EXECUTE [depth=0] sofia/external/7373518737@sip.telnyx.com export(RFC2822_DATE=Fri, 09 Jan 2026 12:39:38 -0600)
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.491037 100.00% [DEBUG] switch_channel.c:1334 EXPORT (export_vars) [RFC2822_DATE]=[Fri, 09 Jan 2026 12:39:38 -0600]
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 EXECUTE [depth=0] sofia/external/7373518737@sip.telnyx.com set(domain_name=store2.local)
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.491037 100.00% [DEBUG] mod_dptools.c:1671 SET sofia/external/7373518737@sip.telnyx.com [domain_name]=[store2.local]
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 EXECUTE [depth=0] sofia/external/7373518737@sip.telnyx.com set(transfer_context=store2)
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.491037 100.00% [DEBUG] mod_dptools.c:1671 SET sofia/external/7373518737@sip.telnyx.com [transfer_context]=[store2]
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 EXECUTE [depth=0] sofia/external/7373518737@sip.telnyx.com set(ringback=%(2000,4000,440,480))
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.491037 100.00% [DEBUG] mod_dptools.c:1671 SET sofia/external/7373518737@sip.telnyx.com [ringback]=[%(2000,4000,440,480)]
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 EXECUTE [depth=0] sofia/external/7373518737@sip.telnyx.com set(call_timeout=30)
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.491037 100.00% [DEBUG] mod_dptools.c:1671 SET sofia/external/7373518737@sip.telnyx.com [call_timeout]=[30]
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 EXECUTE [depth=0] sofia/external/7373518737@sip.telnyx.com set(hangup_after_bridge=true)
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.491037 100.00% [DEBUG] mod_dptools.c:1671 SET sofia/external/7373518737@sip.telnyx.com [hangup_after_bridge]=[true]
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 EXECUTE [depth=0] sofia/external/7373518737@sip.telnyx.com set(continue_on_fail=true)
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.491037 100.00% [DEBUG] mod_dptools.c:1671 SET sofia/external/7373518737@sip.telnyx.com [continue_on_fail]=[true]
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 EXECUTE [depth=0] sofia/external/7373518737@sip.telnyx.com bridge({leg_timeout=30,ignore_early_media=true}user/1000@store2.local,user/1001@store2.local)
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.501030 100.00% [DEBUG] switch_channel.c:1288 sofia/external/7373518737@sip.telnyx.com EXPORTING[export_vars] [RFC2822_DATE]=[Fri, 09 Jan 2026 12:39:38 -0600] to event
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.501030 100.00% [DEBUG] switch_ivr_originate.c:2301 Parsing global variables
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.501030 100.00% [DEBUG] switch_channel.c:1288 sofia/external/7373518737@sip.telnyx.com EXPORTING[export_vars] [RFC2822_DATE]=[Fri, 09 Jan 2026 12:39:38 -0600] to event
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.501030 100.00% [DEBUG] switch_ivr_originate.c:2301 Parsing global variables
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.501030 100.00% [WARNING] switch_ivr_originate.c:2838 Only calling the first element in the list in this mode.
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:38.501030 100.00% [NOTICE] switch_channel.c:1142 New Channel sofia/internal/1000@172.20.10.11:5060 [d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9]
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:38.501030 100.00% [DEBUG] mod_sofia.c:5110 (sofia/internal/1000@172.20.10.11:5060) State Change CS_NEW -> CS_INIT
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.501030 100.00% [DEBUG] switch_ivr_originate.c:3171 sofia/internal/1000@172.20.10.11:5060 Setting leg timeout to 30
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.501030 100.00% [DEBUG] switch_ivr_originate.c:3171 sofia/internal/1000@172.20.10.11:5060 Setting leg timeout to 30
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:38.501030 100.00% [DEBUG] switch_core_state_machine.c:581 (sofia/internal/1000@172.20.10.11:5060) Running State Change CS_INIT (Cur 2 Tot 52)
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:38.501030 100.00% [DEBUG] switch_core_state_machine.c:624 (sofia/internal/1000@172.20.10.11:5060) State INIT
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:38.501030 100.00% [DEBUG] mod_sofia.c:97 sofia/internal/1000@172.20.10.11:5060 SOFIA INIT
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:38.501030 100.00% [INFO] sofia_glue.c:1659 sofia/internal/1000@172.20.10.11:5060 sending invite call-id: (null)
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:38.501030 100.00% [DEBUG] sofia_glue.c:1662 sofia/internal/1000@172.20.10.11:5060 sending invite version: 1.10.12-release git a88d069 2024-08-02 21:02:27Z 64bit
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 Local SDP:
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 v=0
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 o=FreeSWITCH 1767961536 1767961537 IN IP4 172.20.10.10
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 s=FreeSWITCH
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 c=IN IP4 172.20.10.10
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 t=0 0
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 m=audio 22442 RTP/AVP 0 9 8 101
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 a=rtpmap:0 PCMU/8000
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 a=rtpmap:9 G722/8000
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 a=rtpmap:8 PCMA/8000
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 a=rtpmap:101 telephone-event/8000
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 a=fmtp:101 0-15
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 a=ptime:20
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 a=sendrecv
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:38.501030 100.00% [DEBUG] switch_core_state_machine.c:40 sofia/internal/1000@172.20.10.11:5060 Standard INIT
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:38.501030 100.00% [DEBUG] switch_core_state_machine.c:48 (sofia/internal/1000@172.20.10.11:5060) State Change CS_INIT -> CS_ROUTING
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:38.501030 100.00% [DEBUG] switch_core_state_machine.c:624 (sofia/internal/1000@172.20.10.11:5060) State INIT going to sleep
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:38.501030 100.00% [DEBUG] switch_core_state_machine.c:581 (sofia/internal/1000@172.20.10.11:5060) Running State Change CS_ROUTING (Cur 2 Tot 52)
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:38.501030 100.00% [DEBUG] switch_core_state_machine.c:640 (sofia/internal/1000@172.20.10.11:5060) State ROUTING
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:38.501030 100.00% [DEBUG] mod_sofia.c:158 sofia/internal/1000@172.20.10.11:5060 SOFIA ROUTING
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:38.501030 100.00% [DEBUG] switch_ivr_originate.c:67 (sofia/internal/1000@172.20.10.11:5060) State Change CS_ROUTING -> CS_CONSUME_MEDIA
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:38.501030 100.00% [DEBUG] switch_core_state_machine.c:640 (sofia/internal/1000@172.20.10.11:5060) State ROUTING going to sleep
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:38.501030 100.00% [DEBUG] switch_core_state_machine.c:581 (sofia/internal/1000@172.20.10.11:5060) Running State Change CS_CONSUME_MEDIA (Cur 2 Tot 52)
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.501030 100.00% [DEBUG] switch_channel.c:1288 sofia/external/7373518737@sip.telnyx.com EXPORTING[export_vars] [RFC2822_DATE]=[Fri, 09 Jan 2026 12:39:38 -0600] to event
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.501030 100.00% [DEBUG] switch_ivr_originate.c:2301 Parsing global variables
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.501030 100.00% [WARNING] switch_ivr_originate.c:2838 Only calling the first element in the list in this mode.
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:38.501030 100.00% [DEBUG] sofia.c:7493 Channel sofia/internal/1000@172.20.10.11:5060 entering state [calling][0]
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:38.501030 100.00% [DEBUG] switch_core_state_machine.c:659 (sofia/internal/1000@172.20.10.11:5060) State CONSUME_MEDIA
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:38.501030 100.00% [DEBUG] switch_core_state_machine.c:659 (sofia/internal/1000@172.20.10.11:5060) State CONSUME_MEDIA going to sleep
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.501030 100.00% [NOTICE] switch_ivr_originate.c:3059 Cannot create outgoing channel of type [error] cause: [USER_NOT_REGISTERED]
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.501030 100.00% [DEBUG] switch_ivr_originate.c:4056 Originate Resulted in Error Cause: 806 [USER_NOT_REGISTERED]
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.501030 100.00% [NOTICE] switch_ivr_originate.c:3059 Cannot create outgoing channel of type [user] cause: [USER_NOT_REGISTERED]
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:38.631126 100.00% [DEBUG] sofia.c:7493 Channel sofia/internal/1000@172.20.10.11:5060 entering state [proceeding][180]
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:38.631126 100.00% [NOTICE] sofia.c:7604 Ring-Ready sofia/internal/1000@172.20.10.11:5060!
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:38.631126 100.00% [DEBUG] switch_channel.c:3513 (sofia/internal/1000@172.20.10.11:5060) Callstate Change DOWN -> RINGING
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.651035 100.00% [INFO] switch_ivr_originate.c:1305 Sending early media
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.651035 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [PCMU:0:8000:20:64000:1]/[opus:116:48000:20:0:1]
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.651035 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [PCMU:0:8000:20:64000:1]/[G722:9:8000:20:64000:1]
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.651035 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [PCMU:0:8000:20:64000:1]/[PCMU:0:8000:20:64000:1]
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.651035 100.00% [DEBUG] switch_core_media.c:5588 Audio Codec Compare [PCMU:0:8000:20:64000:1] ++++ is saved as a match
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.651035 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [PCMU:0:8000:20:64000:1]/[PCMA:8:8000:20:64000:1]
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.651035 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [G722:9:8000:20:64000:1]/[opus:116:48000:20:0:1]
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.651035 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [G722:9:8000:20:64000:1]/[G722:9:8000:20:64000:1]
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.651035 100.00% [DEBUG] switch_core_media.c:5588 Audio Codec Compare [G722:9:8000:20:64000:1] ++++ is saved as a match
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.651035 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [G722:9:8000:20:64000:1]/[PCMU:0:8000:20:64000:1]
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.651035 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [G722:9:8000:20:64000:1]/[PCMA:8:8000:20:64000:1]
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.651035 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [PCMA:8:8000:20:64000:1]/[opus:116:48000:20:0:1]
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.651035 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [PCMA:8:8000:20:64000:1]/[G722:9:8000:20:64000:1]
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.651035 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [PCMA:8:8000:20:64000:1]/[PCMU:0:8000:20:64000:1]
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.651035 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [PCMA:8:8000:20:64000:1]/[PCMA:8:8000:20:64000:1]
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.651035 100.00% [DEBUG] switch_core_media.c:5588 Audio Codec Compare [PCMA:8:8000:20:64000:1] ++++ is saved as a match
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.651035 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [G729:18:8000:20:8000:1]/[opus:116:48000:20:0:1]
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.651035 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [G729:18:8000:20:8000:1]/[G722:9:8000:20:64000:1]
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.651035 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [G729:18:8000:20:8000:1]/[PCMU:0:8000:20:64000:1]
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.651035 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [G729:18:8000:20:8000:1]/[PCMA:8:8000:20:64000:1]
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.651035 100.00% [DEBUG] switch_core_media.c:5438 Set telephone-event payload to 101@8000
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.651035 100.00% [DEBUG] switch_core_media.c:3731 Set Codec sofia/external/7373518737@sip.telnyx.com PCMU/8000 20 ms 160 samples 64000 bits 1 channels
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.651035 100.00% [DEBUG] switch_core_codec.c:111 sofia/external/7373518737@sip.telnyx.com Original read codec set to PCMU:0
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.651035 100.00% [DEBUG] switch_core_media.c:5798 Set telephone-event payload to 101@8000
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.651035 100.00% [DEBUG] switch_core_media.c:5856 sofia/external/7373518737@sip.telnyx.com Set 2833 dtmf send payload to 101 recv payload to 101
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.651035 100.00% [DEBUG] switch_core_media.c:8660 AUDIO RTP [sofia/external/7373518737@sip.telnyx.com] 172.20.10.10 port 29122 -> 50.114.149.47 port 19030 codec: 0 ms: 20
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.651035 100.00% [DEBUG] switch_rtp.c:4566 Starting timer [soft] 160 bytes per 20ms
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.651035 100.00% [DEBUG] switch_core_media.c:8881 Activating RTCP PORT 19031
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.651035 100.00% [DEBUG] switch_rtp.c:4898 RTCP send rate is: 1000 and packet rate is: 20000 Remote Port: 19031
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.651035 100.00% [DEBUG] switch_rtp.c:2692 Setting RTCP remote addr to 50.114.149.47:19031 2
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.651035 100.00% [DEBUG] switch_core_media.c:8973 sofia/external/7373518737@sip.telnyx.com Set 2833 dtmf send payload to 101
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.651035 100.00% [DEBUG] switch_core_media.c:8980 sofia/external/7373518737@sip.telnyx.com Set 2833 dtmf receive payload to 101
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.651035 100.00% [DEBUG] switch_core_media.c:9003 sofia/external/7373518737@sip.telnyx.com Set rtp dtmf delay to 40
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.651035 100.00% [NOTICE] sofia_media.c:90 Pre-Answer sofia/external/7373518737@sip.telnyx.com!
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.651035 100.00% [DEBUG] switch_channel.c:3585 (sofia/external/7373518737@sip.telnyx.com) Callstate Change RINGING -> EARLY
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.651035 100.00% [DEBUG] switch_core_media.c:8642 Audio params are unchanged for sofia/external/7373518737@sip.telnyx.com.
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.651035 100.00% [DEBUG] mod_sofia.c:2607 Ring SDP:
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 v=0
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 o=FreeSWITCH 1767954856 1767954857 IN IP4 172.20.10.10
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 s=FreeSWITCH
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 c=IN IP4 172.20.10.10
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 t=0 0
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 m=audio 29122 RTP/AVP 0 101
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 a=rtpmap:0 PCMU/8000
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 a=rtpmap:101 telephone-event/8000
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 a=fmtp:101 0-15
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 a=ptime:20
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 a=sendrecv
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 a=rtcp:29123 IN IP4 172.20.10.10
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.651035 100.00% [DEBUG] switch_ivr_originate.c:1363 Raw Codec Activation Success L16@8000hz 1 channel 20ms
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.651035 100.00% [DEBUG] switch_core_codec.c:229 sofia/external/7373518737@sip.telnyx.com Push codec L16:100
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.651035 100.00% [DEBUG] switch_ivr_originate.c:1437 Play Ringback Tone [%(2000,4000,440,480)]
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:38.671053 100.00% [DEBUG] sofia.c:7493 Channel sofia/external/7373518737@sip.telnyx.com entering state [early][183]
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:39.391037 100.00% [DEBUG] switch_rtp.c:1934 rtcp_stats_init: audio ssrc[2375520634] base_seq[18621]
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:39.391037 100.00% [DEBUG] switch_rtp.c:7698 Correct audio ip/port confirmed.
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:39.881050 100.00% [DEBUG] sofia.c:7493 Channel sofia/internal/1000@172.20.10.11:5060 entering state [completing][200]
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:39.881050 100.00% [DEBUG] sofia.c:7503 Remote SDP:
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 v=0
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 o=- 20052 20052 IN IP4 172.20.10.11
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 s=SDP data
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 c=IN IP4 172.20.10.11
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 t=0 0
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 m=audio 12476 RTP/AVP 0 101
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 a=rtpmap:0 PCMU/8000
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 a=rtpmap:101 telephone-event/8000
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 a=fmtp:101 0-15
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 a=ptime:20
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:39.881050 100.00% [DEBUG] sofia.c:7493 Channel sofia/internal/1000@172.20.10.11:5060 entering state [ready][200]
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:39.881050 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [PCMU:0:8000:20:64000:1]/[PCMU:0:8000:20:64000:1]
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:39.881050 100.00% [DEBUG] switch_core_media.c:5588 Audio Codec Compare [PCMU:0:8000:20:64000:1] ++++ is saved as a match
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:39.881050 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [PCMU:0:8000:20:64000:1]/[G722:9:8000:20:64000:1]
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:39.881050 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [PCMU:0:8000:20:64000:1]/[PCMA:8:8000:20:64000:1]
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:39.881050 100.00% [DEBUG] switch_core_media.c:5438 Set telephone-event payload to 101@8000
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:39.881050 100.00% [DEBUG] switch_core_media.c:3731 Set Codec sofia/internal/1000@172.20.10.11:5060 PCMU/8000 20 ms 160 samples 64000 bits 1 channels
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:39.881050 100.00% [DEBUG] switch_core_codec.c:111 sofia/internal/1000@172.20.10.11:5060 Original read codec set to PCMU:0
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:39.881050 100.00% [DEBUG] switch_core_media.c:5798 Set telephone-event payload to 101@8000
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:39.881050 100.00% [DEBUG] switch_core_media.c:5856 sofia/internal/1000@172.20.10.11:5060 Set 2833 dtmf send payload to 101 recv payload to 101
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:39.881050 100.00% [DEBUG] switch_core_media.c:8660 AUDIO RTP [sofia/internal/1000@172.20.10.11:5060] 172.20.10.10 port 22442 -> 172.20.10.11 port 12476 codec: 0 ms: 20
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:39.881050 100.00% [DEBUG] switch_rtp.c:4566 Starting timer [soft] 160 bytes per 20ms
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:39.891034 100.00% [DEBUG] switch_core_media.c:8973 sofia/internal/1000@172.20.10.11:5060 Set 2833 dtmf send payload to 101
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:39.891034 100.00% [DEBUG] switch_core_media.c:8980 sofia/internal/1000@172.20.10.11:5060 Set 2833 dtmf receive payload to 101
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:39.891034 100.00% [DEBUG] switch_core_media.c:9003 sofia/internal/1000@172.20.10.11:5060 Set rtp dtmf delay to 40
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:39.891034 100.00% [NOTICE] sofia.c:8681 Channel [sofia/internal/1000@172.20.10.11:5060] has been answered
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:39.891034 100.00% [DEBUG] switch_channel.c:3912 (sofia/internal/1000@172.20.10.11:5060) Callstate Change RINGING -> ACTIVE
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:39.921030 100.00% [DEBUG] switch_core_codec.c:254 sofia/external/7373518737@sip.telnyx.com Restore previous codec PCMU:0.
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:39.921030 100.00% [DEBUG] switch_core_media.c:8642 Audio params are unchanged for sofia/external/7373518737@sip.telnyx.com.
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:39.921030 100.00% [DEBUG] mod_sofia.c:914 Local SDP sofia/external/7373518737@sip.telnyx.com:
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 v=0
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 o=FreeSWITCH 1767954856 1767954858 IN IP4 172.20.10.10
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 s=FreeSWITCH
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 c=IN IP4 172.20.10.10
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 t=0 0
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 m=audio 29122 RTP/AVP 0 101
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 a=rtpmap:0 PCMU/8000
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 a=rtpmap:101 telephone-event/8000
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 a=fmtp:101 0-15
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 a=ptime:20
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 a=sendrecv
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 a=rtcp:29123 IN IP4 172.20.10.10
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:39.921030 100.00% [NOTICE] switch_ivr_originate.c:3855 Channel [sofia/external/7373518737@sip.telnyx.com] has been answered
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:39.921030 100.00% [DEBUG] switch_channel.c:3912 (sofia/external/7373518737@sip.telnyx.com) Callstate Change EARLY -> ACTIVE
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:39.931025 100.00% [DEBUG] sofia.c:7493 Channel sofia/external/7373518737@sip.telnyx.com entering state [completed][200]
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:39.931025 100.00% [DEBUG] switch_ivr_originate.c:3913 Originate Resulted in Success: [sofia/internal/1000@172.20.10.11:5060] Peer UUID: d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:39.931025 100.00% [DEBUG] switch_ivr_bridge.c:1791 (sofia/internal/1000@172.20.10.11:5060) State Change CS_CONSUME_MEDIA -> CS_EXCHANGE_MEDIA
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:39.931025 100.00% [DEBUG] switch_core_state_machine.c:581 (sofia/internal/1000@172.20.10.11:5060) Running State Change CS_EXCHANGE_MEDIA (Cur 2 Tot 52)
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:39.931025 100.00% [DEBUG] switch_core_state_machine.c:650 (sofia/internal/1000@172.20.10.11:5060) State EXCHANGE_MEDIA
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:39.931025 100.00% [DEBUG] mod_sofia.c:672 SOFIA EXCHANGE_MEDIA
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:40.031022 100.00% [DEBUG] switch_rtp.c:7698 Correct audio ip/port confirmed.
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:40.051028 100.00% [DEBUG] switch_rtp.c:7698 Correct audio ip/port confirmed.
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:40.751033 100.00% [DEBUG] sofia.c:7493 Channel sofia/internal/1000@172.20.10.11:5060 entering state [received][100]
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:40.751033 100.00% [DEBUG] sofia.c:7503 Remote SDP:
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 v=0
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 o=- 20052 20053 IN IP4 172.20.10.11
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 s=SDP data
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 c=IN IP4 172.20.10.11
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 t=0 0
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 m=audio 12476 RTP/AVP 9 0 8 18 101
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 a=rtpmap:9 G722/8000
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 a=rtpmap:0 PCMU/8000
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 a=rtpmap:8 PCMA/8000
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 a=rtpmap:18 G729/8000
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 a=fmtp:18 annexb=no
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 a=rtpmap:101 telephone-event/8000
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 a=fmtp:101 0-15
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 a=sendonly
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 a=ptime:20
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:40.751033 100.00% [DEBUG] switch_channel.c:1994 (sofia/internal/1000@172.20.10.11:5060) Callstate Change ACTIVE -> HELD
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:40.961025 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [G722:9:8000:20:64000:1]/[PCMU:0:8000:20:64000:1]
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:40.961025 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [G722:9:8000:20:64000:1]/[G722:9:8000:20:64000:1]
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:40.961025 100.00% [DEBUG] switch_core_media.c:5588 Audio Codec Compare [G722:9:8000:20:64000:1] ++++ is saved as a match
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:40.961025 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [G722:9:8000:20:64000:1]/[PCMA:8:8000:20:64000:1]
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:40.961025 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [G722:9:8000:20:64000:1]/[opus:116:48000:20:0:1]
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:40.961025 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [PCMU:0:8000:20:64000:1]/[PCMU:0:8000:20:64000:1]
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:40.961025 100.00% [DEBUG] switch_core_media.c:5588 Audio Codec Compare [PCMU:0:8000:20:64000:1] ++++ is saved as a match
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:40.961025 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [PCMU:0:8000:20:64000:1]/[G722:9:8000:20:64000:1]
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:40.961025 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [PCMU:0:8000:20:64000:1]/[PCMA:8:8000:20:64000:1]
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:40.961025 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [PCMU:0:8000:20:64000:1]/[opus:116:48000:20:0:1]
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:40.961025 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [PCMA:8:8000:20:64000:1]/[PCMU:0:8000:20:64000:1]
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:40.961025 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [PCMA:8:8000:20:64000:1]/[G722:9:8000:20:64000:1]
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:40.961025 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [PCMA:8:8000:20:64000:1]/[PCMA:8:8000:20:64000:1]
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:40.961025 100.00% [DEBUG] switch_core_media.c:5588 Audio Codec Compare [PCMA:8:8000:20:64000:1] ++++ is saved as a match
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:40.961025 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [PCMA:8:8000:20:64000:1]/[opus:116:48000:20:0:1]
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:40.961025 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [G729:18:8000:20:8000:1]/[PCMU:0:8000:20:64000:1]
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:40.961025 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [G729:18:8000:20:8000:1]/[G722:9:8000:20:64000:1]
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:40.961025 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [G729:18:8000:20:8000:1]/[PCMA:8:8000:20:64000:1]
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:40.961025 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [G729:18:8000:20:8000:1]/[opus:116:48000:20:0:1]
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:40.961025 100.00% [DEBUG] switch_core_media.c:5438 Set telephone-event payload to 101@8000
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:40.961025 100.00% [DEBUG] switch_core_media.c:5798 Set telephone-event payload to 101@8000
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:40.961025 100.00% [DEBUG] switch_core_media.c:5856 sofia/internal/1000@172.20.10.11:5060 Set 2833 dtmf send payload to 101 recv payload to 101
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:40.961025 100.00% [DEBUG] switch_core_media.c:8642 Audio params are unchanged for sofia/internal/1000@172.20.10.11:5060.
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:40.961025 100.00% [DEBUG] sofia.c:8449 Processing updated SDP
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:40.981034 100.00% [DEBUG] sofia.c:7493 Channel sofia/internal/1000@172.20.10.11:5060 entering state [completed][200]
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:41.101032 100.00% [DEBUG] sofia.c:7493 Channel sofia/internal/1000@172.20.10.11:5060 entering state [ready][200]
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:41.111279 100.00% [DEBUG] sofia.c:7493 Channel sofia/external/7373518737@sip.telnyx.com entering state [ready][200]
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:41.141041 100.00% [DEBUG] sofia.c:9013 Process REFER to [park+700@store2.local]
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:41.141041 100.00% [DEBUG] switch_ivr.c:2296 (sofia/external/7373518737@sip.telnyx.com) State Change CS_EXECUTE -> CS_ROUTING
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:41.141041 100.00% [NOTICE] switch_ivr.c:2303 Transfer sofia/external/7373518737@sip.telnyx.com to XML[park+700@public]
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:41.161057 100.00% [DEBUG] switch_ivr_bridge.c:911 BRIDGE THREAD DONE [sofia/internal/1000@172.20.10.11:5060]
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:41.161057 100.00% [DEBUG] switch_channel.c:2179 (sofia/internal/1000@172.20.10.11:5060) Callstate Change HELD -> UNHELD
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:41.161057 100.00% [NOTICE] switch_ivr_bridge.c:1027 Hangup sofia/internal/1000@172.20.10.11:5060 [CS_EXCHANGE_MEDIA] [NORMAL_CLEARING]
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:41.161057 100.00% [DEBUG] switch_core_state_machine.c:650 (sofia/internal/1000@172.20.10.11:5060) State EXCHANGE_MEDIA going to sleep
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:41.161057 100.00% [DEBUG] switch_core_state_machine.c:581 (sofia/internal/1000@172.20.10.11:5060) Running State Change CS_HANGUP (Cur 2 Tot 52)
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:41.171027 100.00% [DEBUG] switch_core_state_machine.c:844 (sofia/internal/1000@172.20.10.11:5060) Callstate Change UNHELD -> HANGUP
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:41.171027 100.00% [DEBUG] switch_core_state_machine.c:846 (sofia/internal/1000@172.20.10.11:5060) State HANGUP
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:41.171027 100.00% [DEBUG] mod_sofia.c:469 Channel sofia/internal/1000@172.20.10.11:5060 hanging up, cause: NORMAL_CLEARING
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:41.171027 100.00% [DEBUG] mod_sofia.c:523 Sending BYE to sofia/internal/1000@172.20.10.11:5060
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:41.171027 100.00% [DEBUG] switch_core_state_machine.c:59 sofia/internal/1000@172.20.10.11:5060 Standard HANGUP, cause: NORMAL_CLEARING
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:41.171027 100.00% [DEBUG] switch_core_state_machine.c:846 (sofia/internal/1000@172.20.10.11:5060) State HANGUP going to sleep
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:41.171027 100.00% [DEBUG] switch_core_state_machine.c:616 (sofia/internal/1000@172.20.10.11:5060) State Change CS_HANGUP -> CS_REPORTING
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:41.171027 100.00% [DEBUG] switch_core_state_machine.c:581 (sofia/internal/1000@172.20.10.11:5060) Running State Change CS_REPORTING (Cur 2 Tot 52)
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:41.171027 100.00% [DEBUG] switch_core_state_machine.c:932 (sofia/internal/1000@172.20.10.11:5060) State REPORTING
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:41.171027 100.00% [DEBUG] switch_core_state_machine.c:168 sofia/internal/1000@172.20.10.11:5060 Standard REPORTING, cause: NORMAL_CLEARING
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:41.171027 100.00% [DEBUG] switch_core_state_machine.c:932 (sofia/internal/1000@172.20.10.11:5060) State REPORTING going to sleep
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:41.171027 100.00% [DEBUG] switch_core_state_machine.c:607 (sofia/internal/1000@172.20.10.11:5060) State Change CS_REPORTING -> CS_DESTROY
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:41.171027 100.00% [DEBUG] switch_core_session.c:1744 Session 52 (sofia/internal/1000@172.20.10.11:5060) Locked, Waiting on external entities
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:41.291049 100.00% [DEBUG] switch_ivr.c:632 sofia/external/7373518737@sip.telnyx.com Command Execute [depth=0] playback(local_stream://moh)
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:41.291049 100.00% [DEBUG] switch_core_session.c:2791 Application playback Requires media! pre_answering channel sofia/external/7373518737@sip.telnyx.com
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 EXECUTE [depth=0] sofia/external/7373518737@sip.telnyx.com playback(local_stream://moh)
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:41.311050 100.00% [DEBUG] switch_ivr_bridge.c:911 BRIDGE THREAD DONE [sofia/external/7373518737@sip.telnyx.com]
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:41.311050 100.00% [NOTICE] switch_core_session.c:1762 Session 52 (sofia/internal/1000@172.20.10.11:5060) Ended
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:41.311050 100.00% [NOTICE] switch_core_session.c:1766 Close Channel sofia/internal/1000@172.20.10.11:5060 [CS_DESTROY]
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:41.311050 100.00% [DEBUG] switch_core_state_machine.c:647 (sofia/external/7373518737@sip.telnyx.com) State EXECUTE going to sleep
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:41.311050 100.00% [DEBUG] switch_core_state_machine.c:581 (sofia/external/7373518737@sip.telnyx.com) Running State Change CS_ROUTING (Cur 1 Tot 52)
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:41.311050 100.00% [DEBUG] switch_channel.c:2399 (sofia/external/7373518737@sip.telnyx.com) Callstate Change ACTIVE -> RINGING
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:41.311050 100.00% [DEBUG] switch_core_state_machine.c:735 (sofia/internal/1000@172.20.10.11:5060) Running State Change CS_DESTROY (Cur 1 Tot 52)
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:41.311050 100.00% [DEBUG] switch_core_state_machine.c:745 (sofia/internal/1000@172.20.10.11:5060) State DESTROY
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:41.311050 100.00% [DEBUG] mod_sofia.c:380 sofia/internal/1000@172.20.10.11:5060 SOFIA DESTROY
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:41.311050 100.00% [DEBUG] switch_core_state_machine.c:640 (sofia/external/7373518737@sip.telnyx.com) State ROUTING
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:41.311050 100.00% [DEBUG] mod_sofia.c:158 sofia/external/7373518737@sip.telnyx.com SOFIA ROUTING
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:41.311050 100.00% [DEBUG] switch_core_state_machine.c:230 sofia/external/7373518737@sip.telnyx.com Standard ROUTING
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:41.311050 100.00% [INFO] mod_dialplan_xml.c:639 Processing 7373518737 <7373518737>->park+700 in context public
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:41.311050 100.00% [DEBUG] switch_core_state_machine.c:175 sofia/internal/1000@172.20.10.11:5060 Standard DESTROY
+d0c950e2-7287-4a6b-a1f3-80b4a82dcaa9 2026-01-09 12:39:41.311050 100.00% [DEBUG] switch_core_state_machine.c:745 (sofia/internal/1000@172.20.10.11:5060) State DESTROY going to sleep
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 Dialplan: sofia/external/7373518737@sip.telnyx.com parsing [public->unloop] continue=false
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 Dialplan: sofia/external/7373518737@sip.telnyx.com Regex (PASS) [unloop] ${unroll_loops}(true) =~ /^true$/ break=on-false
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 Dialplan: sofia/external/7373518737@sip.telnyx.com Regex (FAIL) [unloop] ${sip_looped_call}() =~ /^true$/ break=on-false
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 Dialplan: sofia/external/7373518737@sip.telnyx.com parsing [public->outside_call] continue=true
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 Dialplan: sofia/external/7373518737@sip.telnyx.com Absolute Condition [outside_call]
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 Dialplan: sofia/external/7373518737@sip.telnyx.com Action set(outside_call=true)
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 Dialplan: sofia/external/7373518737@sip.telnyx.com Action export(RFC2822_DATE=${strftime(%a, %d %b %Y %T %z)})
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 Dialplan: sofia/external/7373518737@sip.telnyx.com parsing [public->call_debug] continue=true
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 Dialplan: sofia/external/7373518737@sip.telnyx.com Regex (FAIL) [call_debug] ${call_debug}(false) =~ /^true$/ break=never
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 Dialplan: sofia/external/7373518737@sip.telnyx.com parsing [public->public_extensions] continue=false
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 Dialplan: sofia/external/7373518737@sip.telnyx.com Regex (FAIL) [public_extensions] destination_number(park+700) =~ /^(10[01][0-9])$/ break=on-false
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 Dialplan: sofia/external/7373518737@sip.telnyx.com parsing [public->public_conference_extensions] continue=false
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 Dialplan: sofia/external/7373518737@sip.telnyx.com Regex (FAIL) [public_conference_extensions] destination_number(park+700) =~ /^(3[5-8][01][0-9])$/ break=on-false
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 Dialplan: sofia/external/7373518737@sip.telnyx.com parsing [public->store1_inbound] continue=false
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 Dialplan: sofia/external/7373518737@sip.telnyx.com Regex (FAIL) [store1_inbound] destination_number(park+700) =~ /^(\+?1?7577828734)$/ break=on-false
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 Dialplan: sofia/external/7373518737@sip.telnyx.com parsing [public->store2_inbound] continue=false
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 Dialplan: sofia/external/7373518737@sip.telnyx.com Regex (FAIL) [store2_inbound] destination_number(park+700) =~ /^(\+?1?7372449688)$/ break=on-false
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 Dialplan: sofia/external/7373518737@sip.telnyx.com parsing [public->park_store1] continue=false
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 Dialplan: sofia/external/7373518737@sip.telnyx.com Regex (FAIL) [park_store1] ${sip_refer_to}(<sip:park+700@store2.local>) =~ /store1\.local/ break=on-false
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 Dialplan: sofia/external/7373518737@sip.telnyx.com parsing [public->park_store2] continue=false
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 Dialplan: sofia/external/7373518737@sip.telnyx.com Regex (PASS) [park_store2] ${sip_refer_to}(<sip:park+700@store2.local>) =~ /store2\.local/ break=on-false
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 Dialplan: sofia/external/7373518737@sip.telnyx.com Regex (PASS) [park_store2] destination_number(park+700) =~ /^park\+(70[0-2])$/ break=on-false
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 Dialplan: sofia/external/7373518737@sip.telnyx.com Action set(fifo_music=local_stream://moh)
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 Dialplan: sofia/external/7373518737@sip.telnyx.com Action valet_park(store2 700)
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:41.311050 100.00% [DEBUG] switch_core_state_machine.c:281 (sofia/external/7373518737@sip.telnyx.com) State Change CS_ROUTING -> CS_EXECUTE
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:41.311050 100.00% [DEBUG] switch_core_state_machine.c:640 (sofia/external/7373518737@sip.telnyx.com) State ROUTING going to sleep
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:41.311050 100.00% [DEBUG] switch_core_state_machine.c:581 (sofia/external/7373518737@sip.telnyx.com) Running State Change CS_EXECUTE (Cur 1 Tot 52)
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:41.311050 100.00% [DEBUG] switch_channel.c:2401 (sofia/external/7373518737@sip.telnyx.com) Callstate Change RINGING -> ACTIVE
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:41.311050 100.00% [DEBUG] switch_core_state_machine.c:647 (sofia/external/7373518737@sip.telnyx.com) State EXECUTE
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:41.311050 100.00% [DEBUG] mod_sofia.c:213 sofia/external/7373518737@sip.telnyx.com SOFIA EXECUTE
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:41.311050 100.00% [DEBUG] switch_core_state_machine.c:323 sofia/external/7373518737@sip.telnyx.com Standard EXECUTE
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 EXECUTE [depth=0] sofia/external/7373518737@sip.telnyx.com set(outside_call=true)
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:41.311050 100.00% [DEBUG] mod_dptools.c:1671 SET sofia/external/7373518737@sip.telnyx.com [outside_call]=[true]
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 EXECUTE [depth=0] sofia/external/7373518737@sip.telnyx.com export(RFC2822_DATE=Fri, 09 Jan 2026 12:39:41 -0600)
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:41.311050 100.00% [DEBUG] switch_channel.c:1334 EXPORT (export_vars) [RFC2822_DATE]=[Fri, 09 Jan 2026 12:39:41 -0600]
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 EXECUTE [depth=0] sofia/external/7373518737@sip.telnyx.com set(fifo_music=local_stream://moh)
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:41.311050 100.00% [DEBUG] mod_dptools.c:1671 SET sofia/external/7373518737@sip.telnyx.com [fifo_music]=[local_stream://moh]
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 EXECUTE [depth=0] sofia/external/7373518737@sip.telnyx.com valet_park(store2 700)
+2026-01-09 12:39:41.311050 100.00% [DEBUG] mod_local_stream.c:912 Opening Stream [moh/8000] 8000hz
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:41.311050 100.00% [DEBUG] switch_ivr_play_say.c:1561 Codec Activated L16@8000hz 1 channels 20ms
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.781027 100.00% [NOTICE] switch_channel.c:1142 New Channel sofia/internal/1000@store2.local:5060 [6f7efe02-1e83-4920-8b73-e42faf3f34a2]
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.781027 100.00% [DEBUG] switch_core_state_machine.c:581 (sofia/internal/1000@store2.local:5060) Running State Change CS_NEW (Cur 2 Tot 53)
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.781027 100.00% [INFO] sofia.c:10460 sofia/internal/1000@store2.local:5060 receiving invite from 172.20.10.11:5060 version: 1.10.12-release git a88d069 2024-08-02 21:02:27Z 64bit call-id: 4_1100186268@172.20.10.11
+2026-01-09 12:39:44.781027 100.00% [DEBUG] sofia.c:10554 verifying acl "domains" for ip/port 172.20.10.11:0.
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.791030 100.00% [DEBUG] switch_core_state_machine.c:600 (sofia/internal/1000@store2.local:5060) State NEW
+2026-01-09 12:39:44.791030 100.00% [DEBUG] sofia.c:2419 detaching session 6f7efe02-1e83-4920-8b73-e42faf3f34a2
+2026-01-09 12:39:44.831027 100.00% [DEBUG] sofia.c:2532 Re-attaching to session 6f7efe02-1e83-4920-8b73-e42faf3f34a2
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.841023 100.00% [INFO] sofia.c:10460 sofia/internal/1000@store2.local:5060 receiving invite from 172.20.10.11:5060 version: 1.10.12-release git a88d069 2024-08-02 21:02:27Z 64bit call-id: 4_1100186268@172.20.10.11
+2026-01-09 12:39:44.841023 100.00% [DEBUG] sofia.c:10554 verifying acl "domains" for ip/port 172.20.10.11:0.
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.851236 100.00% [DEBUG] sofia.c:7493 Channel sofia/internal/1000@store2.local:5060 entering state [received][100]
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.851236 100.00% [DEBUG] sofia.c:7503 Remote SDP:
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 v=0
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 o=- 20053 20053 IN IP4 172.20.10.11
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 s=SDP data
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 c=IN IP4 172.20.10.11
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 t=0 0
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 m=audio 12478 RTP/AVP 9 0 8 18 101
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 a=rtpmap:9 G722/8000
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 a=rtpmap:0 PCMU/8000
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 a=rtpmap:8 PCMA/8000
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 a=rtpmap:18 G729/8000
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 a=fmtp:18 annexb=no
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 a=rtpmap:101 telephone-event/8000
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 a=fmtp:101 0-15
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 a=ptime:20
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.851236 100.00% [DEBUG] sofia.c:7906 (sofia/internal/1000@store2.local:5060) State Change CS_NEW -> CS_INIT
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.851236 100.00% [DEBUG] switch_core_state_machine.c:581 (sofia/internal/1000@store2.local:5060) Running State Change CS_INIT (Cur 2 Tot 53)
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.851236 100.00% [DEBUG] switch_core_state_machine.c:624 (sofia/internal/1000@store2.local:5060) State INIT
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.851236 100.00% [DEBUG] mod_sofia.c:97 sofia/internal/1000@store2.local:5060 SOFIA INIT
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.851236 100.00% [DEBUG] switch_core_state_machine.c:40 sofia/internal/1000@store2.local:5060 Standard INIT
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.851236 100.00% [DEBUG] switch_core_state_machine.c:48 (sofia/internal/1000@store2.local:5060) State Change CS_INIT -> CS_ROUTING
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.851236 100.00% [DEBUG] switch_core_state_machine.c:624 (sofia/internal/1000@store2.local:5060) State INIT going to sleep
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.851236 100.00% [DEBUG] switch_core_state_machine.c:581 (sofia/internal/1000@store2.local:5060) Running State Change CS_ROUTING (Cur 2 Tot 53)
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.851236 100.00% [DEBUG] switch_channel.c:2399 (sofia/internal/1000@store2.local:5060) Callstate Change DOWN -> RINGING
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.851236 100.00% [DEBUG] switch_core_state_machine.c:640 (sofia/internal/1000@store2.local:5060) State ROUTING
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.861473 100.00% [DEBUG] mod_sofia.c:158 sofia/internal/1000@store2.local:5060 SOFIA ROUTING
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.861473 100.00% [DEBUG] switch_core_state_machine.c:230 sofia/internal/1000@store2.local:5060 Standard ROUTING
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.861473 100.00% [INFO] mod_dialplan_xml.c:639 Processing Store 1 - Ext 1000 <1000>->park+700 in context store2
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 Dialplan: sofia/internal/1000@store2.local:5060 parsing [store2->local_extension] continue=false
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 Dialplan: sofia/internal/1000@store2.local:5060 Regex (FAIL) [local_extension] destination_number(park+700) =~ /^(10[01][0-9])$/ break=on-false
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 Dialplan: sofia/internal/1000@store2.local:5060 parsing [store2->park_slot] continue=false
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 Dialplan: sofia/internal/1000@store2.local:5060 Regex (PASS) [park_slot] destination_number(park+700) =~ /^(?:park\+)?(70[0-2])$/ break=on-false
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 Dialplan: sofia/internal/1000@store2.local:5060 Action set(fifo_music=local_stream://moh)
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 Dialplan: sofia/internal/1000@store2.local:5060 Action valet_park(store2 700)
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.861473 100.00% [DEBUG] switch_core_state_machine.c:281 (sofia/internal/1000@store2.local:5060) State Change CS_ROUTING -> CS_EXECUTE
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.861473 100.00% [DEBUG] switch_core_state_machine.c:640 (sofia/internal/1000@store2.local:5060) State ROUTING going to sleep
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.861473 100.00% [DEBUG] switch_core_state_machine.c:581 (sofia/internal/1000@store2.local:5060) Running State Change CS_EXECUTE (Cur 2 Tot 53)
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.861473 100.00% [DEBUG] switch_core_state_machine.c:647 (sofia/internal/1000@store2.local:5060) State EXECUTE
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.861473 100.00% [DEBUG] mod_sofia.c:213 sofia/internal/1000@store2.local:5060 SOFIA EXECUTE
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.861473 100.00% [DEBUG] switch_core_state_machine.c:323 sofia/internal/1000@store2.local:5060 Standard EXECUTE
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 EXECUTE [depth=0] sofia/internal/1000@store2.local:5060 set(fifo_music=local_stream://moh)
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.861473 100.00% [DEBUG] mod_dptools.c:1671 SET sofia/internal/1000@store2.local:5060 [fifo_music]=[local_stream://moh]
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.861473 100.00% [DEBUG] switch_core_session.c:2791 Application valet_park Requires media! pre_answering channel sofia/internal/1000@store2.local:5060
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.861473 100.00% [INFO] switch_core_session.c:2793 Sending early media
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.861473 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [G722:9:8000:20:64000:1]/[opus:116:48000:20:0:1]
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.861473 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [G722:9:8000:20:64000:1]/[G722:9:8000:20:64000:1]
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.861473 100.00% [DEBUG] switch_core_media.c:5588 Audio Codec Compare [G722:9:8000:20:64000:1] ++++ is saved as a match
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.861473 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [G722:9:8000:20:64000:1]/[PCMU:0:8000:20:64000:1]
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.861473 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [G722:9:8000:20:64000:1]/[PCMA:8:8000:20:64000:1]
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.861473 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [PCMU:0:8000:20:64000:1]/[opus:116:48000:20:0:1]
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.861473 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [PCMU:0:8000:20:64000:1]/[G722:9:8000:20:64000:1]
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.861473 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [PCMU:0:8000:20:64000:1]/[PCMU:0:8000:20:64000:1]
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.861473 100.00% [DEBUG] switch_core_media.c:5588 Audio Codec Compare [PCMU:0:8000:20:64000:1] ++++ is saved as a match
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.861473 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [PCMU:0:8000:20:64000:1]/[PCMA:8:8000:20:64000:1]
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.861473 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [PCMA:8:8000:20:64000:1]/[opus:116:48000:20:0:1]
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.861473 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [PCMA:8:8000:20:64000:1]/[G722:9:8000:20:64000:1]
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.861473 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [PCMA:8:8000:20:64000:1]/[PCMU:0:8000:20:64000:1]
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.861473 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [PCMA:8:8000:20:64000:1]/[PCMA:8:8000:20:64000:1]
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.861473 100.00% [DEBUG] switch_core_media.c:5588 Audio Codec Compare [PCMA:8:8000:20:64000:1] ++++ is saved as a match
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.861473 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [G729:18:8000:20:8000:1]/[opus:116:48000:20:0:1]
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.861473 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [G729:18:8000:20:8000:1]/[G722:9:8000:20:64000:1]
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.861473 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [G729:18:8000:20:8000:1]/[PCMU:0:8000:20:64000:1]
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.861473 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [G729:18:8000:20:8000:1]/[PCMA:8:8000:20:64000:1]
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.861473 100.00% [DEBUG] switch_core_media.c:5438 Set telephone-event payload to 101@8000
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.861473 100.00% [DEBUG] switch_core_media.c:3731 Set Codec sofia/internal/1000@store2.local:5060 G722/8000 20 ms 160 samples 64000 bits 1 channels
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.861473 100.00% [DEBUG] switch_core_codec.c:111 sofia/internal/1000@store2.local:5060 Original read codec set to G722:9
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.861473 100.00% [DEBUG] switch_core_media.c:5798 Set telephone-event payload to 101@8000
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.861473 100.00% [DEBUG] switch_core_media.c:5856 sofia/internal/1000@store2.local:5060 Set 2833 dtmf send payload to 101 recv payload to 101
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.861473 100.00% [DEBUG] switch_core_media.c:8660 AUDIO RTP [sofia/internal/1000@store2.local:5060] 172.20.10.10 port 17526 -> 172.20.10.11 port 12478 codec: 9 ms: 20
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.861473 100.00% [DEBUG] switch_rtp.c:4566 Starting timer [soft] 160 bytes per 20ms
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.871026 100.00% [DEBUG] switch_core_media.c:8973 sofia/internal/1000@store2.local:5060 Set 2833 dtmf send payload to 101
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.871026 100.00% [DEBUG] switch_core_media.c:8980 sofia/internal/1000@store2.local:5060 Set 2833 dtmf receive payload to 101
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.871026 100.00% [DEBUG] switch_core_media.c:9003 sofia/internal/1000@store2.local:5060 Set rtp dtmf delay to 40
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.871026 100.00% [NOTICE] sofia_media.c:90 Pre-Answer sofia/internal/1000@store2.local:5060!
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.871026 100.00% [DEBUG] switch_channel.c:3585 (sofia/internal/1000@store2.local:5060) Callstate Change RINGING -> EARLY
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.871026 100.00% [DEBUG] switch_core_media.c:8642 Audio params are unchanged for sofia/internal/1000@store2.local:5060.
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.871026 100.00% [DEBUG] mod_sofia.c:2607 Ring SDP:
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 v=0
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 o=FreeSWITCH 1767966458 1767966459 IN IP4 172.20.10.10
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 s=FreeSWITCH
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 c=IN IP4 172.20.10.10
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 t=0 0
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 m=audio 17526 RTP/AVP 9 101
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 a=rtpmap:9 G722/8000
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 a=rtpmap:101 telephone-event/8000
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 a=fmtp:101 0-15
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 a=ptime:20
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 a=sendrecv
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 EXECUTE [depth=0] sofia/internal/1000@store2.local:5060 valet_park(store2 700)
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.871026 100.00% [DEBUG] sofia.c:7493 Channel sofia/internal/1000@store2.local:5060 entering state [early][183]
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:44.871026 100.00% [DEBUG] switch_ivr_bridge.c:2211 (sofia/external/7373518737@sip.telnyx.com) State Change CS_EXECUTE -> CS_HIBERNATE
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.871026 100.00% [DEBUG] switch_ivr_bridge.c:2213 (sofia/internal/1000@store2.local:5060) State Change CS_EXECUTE -> CS_HIBERNATE
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.871026 100.00% [DEBUG] switch_core_state_machine.c:647 (sofia/internal/1000@store2.local:5060) State EXECUTE going to sleep
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.871026 100.00% [DEBUG] switch_core_state_machine.c:581 (sofia/internal/1000@store2.local:5060) Running State Change CS_HIBERNATE (Cur 2 Tot 53)
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.871026 100.00% [DEBUG] switch_core_state_machine.c:662 (sofia/internal/1000@store2.local:5060) State HIBERNATE
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.871026 100.00% [DEBUG] mod_sofia.c:195 sofia/internal/1000@store2.local:5060 SOFIA HIBERNATE
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.871026 100.00% [DEBUG] switch_ivr_bridge.c:1142 (sofia/internal/1000@store2.local:5060) State Change CS_HIBERNATE -> CS_RESET
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.871026 100.00% [DEBUG] switch_core_state_machine.c:662 (sofia/internal/1000@store2.local:5060) State HIBERNATE going to sleep
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.871026 100.00% [DEBUG] switch_core_state_machine.c:581 (sofia/internal/1000@store2.local:5060) Running State Change CS_RESET (Cur 2 Tot 53)
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.871026 100.00% [DEBUG] switch_core_state_machine.c:643 (sofia/internal/1000@store2.local:5060) State RESET
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.871026 100.00% [DEBUG] mod_sofia.c:176 sofia/internal/1000@store2.local:5060 SOFIA RESET
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.871026 100.00% [DEBUG] switch_ivr_bridge.c:1127 sofia/internal/1000@store2.local:5060 CUSTOM RESET
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.871026 100.00% [DEBUG] switch_core_state_machine.c:182 sofia/internal/1000@store2.local:5060 Standard RESET
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.871026 100.00% [DEBUG] switch_core_state_machine.c:643 (sofia/internal/1000@store2.local:5060) State RESET going to sleep
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:44.891192 100.00% [DEBUG] switch_ivr_play_say.c:2010 done playing file local_stream://moh
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:44.891192 100.00% [DEBUG] switch_core_state_machine.c:647 (sofia/external/7373518737@sip.telnyx.com) State EXECUTE going to sleep
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:44.891192 100.00% [DEBUG] switch_core_state_machine.c:581 (sofia/external/7373518737@sip.telnyx.com) Running State Change CS_HIBERNATE (Cur 2 Tot 53)
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:44.891192 100.00% [DEBUG] switch_core_state_machine.c:662 (sofia/external/7373518737@sip.telnyx.com) State HIBERNATE
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:44.891192 100.00% [DEBUG] mod_sofia.c:195 sofia/external/7373518737@sip.telnyx.com SOFIA HIBERNATE
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:44.891192 100.00% [DEBUG] switch_ivr_bridge.c:1142 (sofia/external/7373518737@sip.telnyx.com) State Change CS_HIBERNATE -> CS_RESET
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:44.891192 100.00% [DEBUG] switch_core_state_machine.c:662 (sofia/external/7373518737@sip.telnyx.com) State HIBERNATE going to sleep
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:44.891192 100.00% [DEBUG] switch_core_state_machine.c:581 (sofia/external/7373518737@sip.telnyx.com) Running State Change CS_RESET (Cur 2 Tot 53)
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:44.891192 100.00% [DEBUG] switch_core_state_machine.c:643 (sofia/external/7373518737@sip.telnyx.com) State RESET
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:44.891192 100.00% [DEBUG] mod_sofia.c:176 sofia/external/7373518737@sip.telnyx.com SOFIA RESET
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:44.891192 100.00% [DEBUG] switch_ivr_bridge.c:1127 sofia/external/7373518737@sip.telnyx.com CUSTOM RESET
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:44.891192 100.00% [DEBUG] switch_ivr_bridge.c:1134 (sofia/external/7373518737@sip.telnyx.com) State Change CS_RESET -> CS_SOFT_EXECUTE
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:44.891192 100.00% [DEBUG] switch_core_state_machine.c:643 (sofia/external/7373518737@sip.telnyx.com) State RESET going to sleep
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:44.891192 100.00% [DEBUG] switch_core_state_machine.c:581 (sofia/external/7373518737@sip.telnyx.com) Running State Change CS_SOFT_EXECUTE (Cur 2 Tot 53)
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:44.891192 100.00% [DEBUG] switch_core_state_machine.c:653 (sofia/external/7373518737@sip.telnyx.com) State SOFT_EXECUTE
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:44.891192 100.00% [DEBUG] mod_sofia.c:678 SOFIA SOFT_EXECUTE
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:44.891192 100.00% [DEBUG] switch_ivr_bridge.c:1152 sofia/external/7373518737@sip.telnyx.com CUSTOM SOFT_EXECUTE
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.891192 100.00% [DEBUG] switch_ivr_bridge.c:1184 (sofia/internal/1000@store2.local:5060) State Change CS_RESET -> CS_SOFT_EXECUTE
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.891192 100.00% [DEBUG] switch_core_state_machine.c:581 (sofia/internal/1000@store2.local:5060) Running State Change CS_SOFT_EXECUTE (Cur 2 Tot 53)
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.891192 100.00% [DEBUG] switch_core_state_machine.c:653 (sofia/internal/1000@store2.local:5060) State SOFT_EXECUTE
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.891192 100.00% [DEBUG] mod_sofia.c:678 SOFIA SOFT_EXECUTE
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.891192 100.00% [DEBUG] switch_ivr_bridge.c:1152 sofia/internal/1000@store2.local:5060 CUSTOM SOFT_EXECUTE
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.891192 100.00% [DEBUG] switch_core_state_machine.c:397 sofia/internal/1000@store2.local:5060 Standard SOFT_EXECUTE
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.891192 100.00% [DEBUG] switch_core_state_machine.c:653 (sofia/internal/1000@store2.local:5060) State SOFT_EXECUTE going to sleep
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.911022 100.00% [DEBUG] switch_ivr_bridge.c:1681 (sofia/internal/1000@store2.local:5060) State Change CS_SOFT_EXECUTE -> CS_CONSUME_MEDIA
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.911022 100.00% [DEBUG] switch_core_state_machine.c:581 (sofia/internal/1000@store2.local:5060) Running State Change CS_CONSUME_MEDIA (Cur 2 Tot 53)
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.911022 100.00% [DEBUG] switch_core_state_machine.c:659 (sofia/internal/1000@store2.local:5060) State CONSUME_MEDIA
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.911022 100.00% [DEBUG] switch_ivr_bridge.c:1056 sofia/internal/1000@store2.local:5060 CUSTOM HOLD
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.911022 100.00% [DEBUG] switch_core_state_machine.c:659 (sofia/internal/1000@store2.local:5060) State CONSUME_MEDIA going to sleep
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.911022 100.00% [DEBUG] switch_ivr_bridge.c:1791 (sofia/internal/1000@store2.local:5060) State Change CS_CONSUME_MEDIA -> CS_EXCHANGE_MEDIA
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.911022 100.00% [DEBUG] switch_core_state_machine.c:581 (sofia/internal/1000@store2.local:5060) Running State Change CS_EXCHANGE_MEDIA (Cur 2 Tot 53)
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.911022 100.00% [DEBUG] switch_core_state_machine.c:650 (sofia/internal/1000@store2.local:5060) State EXCHANGE_MEDIA
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.911022 100.00% [DEBUG] mod_sofia.c:672 SOFIA EXCHANGE_MEDIA
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.911022 100.00% [DEBUG] switch_core_media.c:8642 Audio params are unchanged for sofia/internal/1000@store2.local:5060.
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.911022 100.00% [DEBUG] mod_sofia.c:914 Local SDP sofia/internal/1000@store2.local:5060:
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 v=0
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 o=FreeSWITCH 1767966458 1767966460 IN IP4 172.20.10.10
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 s=FreeSWITCH
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 c=IN IP4 172.20.10.10
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 t=0 0
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 m=audio 17526 RTP/AVP 9 101
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 a=rtpmap:9 G722/8000
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 a=rtpmap:101 telephone-event/8000
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 a=fmtp:101 0-15
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 a=ptime:20
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 a=sendrecv
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.911022 100.00% [NOTICE] switch_ivr_bridge.c:760 Channel [sofia/internal/1000@store2.local:5060] has been answered
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.911022 100.00% [DEBUG] switch_channel.c:3912 (sofia/internal/1000@store2.local:5060) Callstate Change EARLY -> ACTIVE
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.931022 100.00% [DEBUG] sofia.c:7493 Channel sofia/internal/1000@store2.local:5060 entering state [completed][200]
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:44.931022 100.00% [NOTICE] switch_core_media.c:16001 Activating write resampler
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:45.011045 100.00% [DEBUG] switch_rtp.c:7698 Correct audio ip/port confirmed.
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:45.011045 100.00% [NOTICE] switch_core_media.c:16001 Activating write resampler
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:45.021033 100.00% [DEBUG] sofia.c:7493 Channel sofia/internal/1000@store2.local:5060 entering state [ready][200]
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:45.031045 100.00% [DEBUG] sofia.c:7493 Channel sofia/internal/1000@store2.local:5060 entering state [calling][0]
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:45.091027 100.00% [DEBUG] sofia.c:7493 Channel sofia/internal/1000@store2.local:5060 entering state [ready][200]
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:45.091027 100.00% [DEBUG] sofia.c:7503 Remote SDP:
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 v=0
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 o=- 20053 20054 IN IP4 172.20.10.11
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 s=SDP data
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 c=IN IP4 172.20.10.11
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 t=0 0
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 m=audio 12478 RTP/AVP 9 101
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 a=rtpmap:9 G722/8000
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 a=rtpmap:101 telephone-event/8000
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 a=fmtp:101 0-15
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 a=ptime:20
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:45.091027 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [G722:9:8000:20:64000:1]/[opus:116:48000:20:0:1]
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:45.091027 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [G722:9:8000:20:64000:1]/[G722:9:8000:20:64000:1]
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:45.091027 100.00% [DEBUG] switch_core_media.c:5588 Audio Codec Compare [G722:9:8000:20:64000:1] ++++ is saved as a match
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:45.091027 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [G722:9:8000:20:64000:1]/[PCMU:0:8000:20:64000:1]
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:45.091027 100.00% [DEBUG] switch_core_media.c:5526 Audio Codec Compare [G722:9:8000:20:64000:1]/[PCMA:8:8000:20:64000:1]
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:45.091027 100.00% [DEBUG] switch_core_media.c:5438 Set telephone-event payload to 101@8000
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:45.091027 100.00% [DEBUG] switch_core_media.c:5798 Set telephone-event payload to 101@8000
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:45.091027 100.00% [DEBUG] switch_core_media.c:5856 sofia/internal/1000@store2.local:5060 Set 2833 dtmf send payload to 101 recv payload to 101
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:45.091027 100.00% [DEBUG] sofia.c:8519 Processing updated SDP
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:45.091027 100.00% [DEBUG] switch_core_media.c:8642 Audio params are unchanged for sofia/internal/1000@store2.local:5060.
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:46.551046 100.00% [NOTICE] sofia.c:1065 Hangup sofia/internal/1000@store2.local:5060 [CS_EXCHANGE_MEDIA] [NORMAL_CLEARING]
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:46.551046 100.00% [DEBUG] switch_ivr_bridge.c:911 BRIDGE THREAD DONE [sofia/internal/1000@store2.local:5060]
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:46.551046 100.00% [DEBUG] switch_core_state_machine.c:650 (sofia/internal/1000@store2.local:5060) State EXCHANGE_MEDIA going to sleep
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:46.551046 100.00% [DEBUG] switch_core_state_machine.c:581 (sofia/internal/1000@store2.local:5060) Running State Change CS_HANGUP (Cur 2 Tot 53)
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:46.551046 100.00% [DEBUG] switch_core_state_machine.c:844 (sofia/internal/1000@store2.local:5060) Callstate Change ACTIVE -> HANGUP
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:46.551046 100.00% [DEBUG] switch_core_state_machine.c:846 (sofia/internal/1000@store2.local:5060) State HANGUP
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:46.551046 100.00% [DEBUG] mod_sofia.c:469 Channel sofia/internal/1000@store2.local:5060 hanging up, cause: NORMAL_CLEARING
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:46.551046 100.00% [DEBUG] switch_core_state_machine.c:59 sofia/internal/1000@store2.local:5060 Standard HANGUP, cause: NORMAL_CLEARING
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:46.551046 100.00% [DEBUG] switch_core_state_machine.c:846 (sofia/internal/1000@store2.local:5060) State HANGUP going to sleep
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:46.551046 100.00% [DEBUG] switch_core_state_machine.c:616 (sofia/internal/1000@store2.local:5060) State Change CS_HANGUP -> CS_REPORTING
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:46.551046 100.00% [DEBUG] switch_core_state_machine.c:581 (sofia/internal/1000@store2.local:5060) Running State Change CS_REPORTING (Cur 2 Tot 53)
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:46.551046 100.00% [DEBUG] switch_core_state_machine.c:932 (sofia/internal/1000@store2.local:5060) State REPORTING
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:46.551046 100.00% [DEBUG] switch_core_state_machine.c:168 sofia/internal/1000@store2.local:5060 Standard REPORTING, cause: NORMAL_CLEARING
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:46.551046 100.00% [DEBUG] switch_core_state_machine.c:932 (sofia/internal/1000@store2.local:5060) State REPORTING going to sleep
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:46.561153 100.00% [DEBUG] switch_core_state_machine.c:607 (sofia/internal/1000@store2.local:5060) State Change CS_REPORTING -> CS_DESTROY
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:46.561153 100.00% [DEBUG] switch_core_session.c:1744 Session 53 (sofia/internal/1000@store2.local:5060) Locked, Waiting on external entities
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:46.571031 100.00% [DEBUG] switch_ivr_bridge.c:819 sofia/internal/1000@store2.local:5060 ending bridge by request from write function
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:46.571031 100.00% [DEBUG] switch_ivr_bridge.c:911 BRIDGE THREAD DONE [sofia/external/7373518737@sip.telnyx.com]
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:46.571031 100.00% [NOTICE] switch_ivr_bridge.c:1942 Hangup sofia/external/7373518737@sip.telnyx.com [CS_SOFT_EXECUTE] [NORMAL_CLEARING]
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:46.571031 100.00% [DEBUG] switch_core_state_machine.c:653 (sofia/external/7373518737@sip.telnyx.com) State SOFT_EXECUTE going to sleep
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:46.571031 100.00% [DEBUG] switch_core_state_machine.c:581 (sofia/external/7373518737@sip.telnyx.com) Running State Change CS_HANGUP (Cur 2 Tot 53)
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:46.571031 100.00% [DEBUG] switch_core_state_machine.c:844 (sofia/external/7373518737@sip.telnyx.com) Callstate Change ACTIVE -> HANGUP
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:46.571031 100.00% [DEBUG] switch_core_state_machine.c:846 (sofia/external/7373518737@sip.telnyx.com) State HANGUP
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:46.571031 100.00% [DEBUG] mod_sofia.c:463 sofia/external/7373518737@sip.telnyx.com Overriding SIP cause 480 with 200 from the other leg
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:46.571031 100.00% [DEBUG] mod_sofia.c:469 Channel sofia/external/7373518737@sip.telnyx.com hanging up, cause: NORMAL_CLEARING
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:46.571031 100.00% [NOTICE] switch_core_session.c:1762 Session 53 (sofia/internal/1000@store2.local:5060) Ended
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:46.571031 100.00% [NOTICE] switch_core_session.c:1766 Close Channel sofia/internal/1000@store2.local:5060 [CS_DESTROY]
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:46.571031 100.00% [DEBUG] mod_sofia.c:523 Sending BYE to sofia/external/7373518737@sip.telnyx.com
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:46.571031 100.00% [DEBUG] switch_core_state_machine.c:59 sofia/external/7373518737@sip.telnyx.com Standard HANGUP, cause: NORMAL_CLEARING
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:46.571031 100.00% [DEBUG] switch_core_state_machine.c:846 (sofia/external/7373518737@sip.telnyx.com) State HANGUP going to sleep
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:46.571031 100.00% [DEBUG] switch_core_state_machine.c:616 (sofia/external/7373518737@sip.telnyx.com) State Change CS_HANGUP -> CS_REPORTING
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:46.571031 100.00% [DEBUG] switch_core_state_machine.c:581 (sofia/external/7373518737@sip.telnyx.com) Running State Change CS_REPORTING (Cur 1 Tot 53)
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:46.571031 100.00% [DEBUG] switch_core_state_machine.c:932 (sofia/external/7373518737@sip.telnyx.com) State REPORTING
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:46.571031 100.00% [DEBUG] switch_core_state_machine.c:735 (sofia/internal/1000@store2.local:5060) Running State Change CS_DESTROY (Cur 1 Tot 53)
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:46.571031 100.00% [DEBUG] switch_core_state_machine.c:745 (sofia/internal/1000@store2.local:5060) State DESTROY
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:46.571031 100.00% [DEBUG] mod_sofia.c:380 sofia/internal/1000@store2.local:5060 SOFIA DESTROY
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:46.571031 100.00% [DEBUG] switch_core_state_machine.c:175 sofia/internal/1000@store2.local:5060 Standard DESTROY
+6f7efe02-1e83-4920-8b73-e42faf3f34a2 2026-01-09 12:39:46.571031 100.00% [DEBUG] switch_core_state_machine.c:745 (sofia/internal/1000@store2.local:5060) State DESTROY going to sleep
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:46.571031 100.00% [DEBUG] switch_core_state_machine.c:168 sofia/external/7373518737@sip.telnyx.com Standard REPORTING, cause: NORMAL_CLEARING
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:46.571031 100.00% [DEBUG] switch_core_state_machine.c:932 (sofia/external/7373518737@sip.telnyx.com) State REPORTING going to sleep
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:46.571031 100.00% [DEBUG] switch_core_state_machine.c:607 (sofia/external/7373518737@sip.telnyx.com) State Change CS_REPORTING -> CS_DESTROY
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:46.571031 100.00% [DEBUG] switch_core_session.c:1744 Session 51 (sofia/external/7373518737@sip.telnyx.com) Locked, Waiting on external entities
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:46.571031 100.00% [NOTICE] switch_core_session.c:1762 Session 51 (sofia/external/7373518737@sip.telnyx.com) Ended
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:46.571031 100.00% [NOTICE] switch_core_session.c:1766 Close Channel sofia/external/7373518737@sip.telnyx.com [CS_DESTROY]
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:46.571031 100.00% [DEBUG] switch_core_state_machine.c:735 (sofia/external/7373518737@sip.telnyx.com) Running State Change CS_DESTROY (Cur 0 Tot 53)
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:46.571031 100.00% [DEBUG] switch_core_state_machine.c:745 (sofia/external/7373518737@sip.telnyx.com) State DESTROY
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:46.571031 100.00% [DEBUG] mod_sofia.c:380 sofia/external/7373518737@sip.telnyx.com SOFIA DESTROY
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:46.571031 100.00% [DEBUG] switch_core_state_machine.c:175 sofia/external/7373518737@sip.telnyx.com Standard DESTROY
+47f7b2bc-b39c-45e7-8e98-5eac70b468a4 2026-01-09 12:39:46.571031 100.00% [DEBUG] switch_core_state_machine.c:745 (sofia/external/7373518737@sip.telnyx.com) State DESTROY going to sleep
+2026-01-09 12:39:56.441048 100.00% [DEBUG] sofia_reg.c:2649 Changing expire time to 591 by request of proxy sip:sip.telnyx.com
+2026-01-09 12:39:59.541032 100.00% [DEBUG] sofia_reg.c:2649 Changing expire time to 594 by request of proxy sip:sip.telnyx.com

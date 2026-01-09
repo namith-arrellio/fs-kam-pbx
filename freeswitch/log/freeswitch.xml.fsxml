@@ -4038,7 +4038,7 @@ the sip-server-addr and sip-server-port to the oreka server
     <!--enable to use presence -->
     <param name="manage-presence" value="true"/>
     <!-- send a presence probe on each register to query devices to send presence instead of sending presence with less info -->
-    <!--<param name="presence-probe-on-register" value="true"/>-->
+    <param name="presence-probe-on-register" value="true"/>
     <!--<param name="manage-shared-appearance" value="true"/>-->
     <!-- used to share presence info across sofia profiles -->
     <!-- Name of the db to use for this profile -->
@@ -8074,18 +8074,18 @@ the sip-server-addr and sip-server-port to the oreka server
       <variable name="outbound_caller_id_number" value="+17372449688"/>
     </variables>
   </user>
-  <user id="1002">
+  <user id="1001">
     <params>
       <param name="password" value="123456"/>
-      <param name="vm-password" value="1002"/>
+      <param name="vm-password" value="1001"/>
     </params>
     <variables>
       <variable name="toll_allow" value="domestic,international,local"/>
-      <variable name="accountcode" value="store2-1002"/>
+      <variable name="accountcode" value="store2-1001"/>
       <variable name="user_context" value="store2"/>
-      <variable name="effective_caller_id_name" value="Store 2 - Ext 1002"/>
-      <variable name="effective_caller_id_number" value="1002"/>
-      <variable name="outbound_caller_id_number" value="+17372449688"/>
+      <variable name="effective_caller_id_name" value="Store 2 - Ext 1001"/>
+      <variable name="effective_caller_id_number" value="1001"/>
+      <variable name="outbound_caller_id_number" value="+17372449688"/> 
     </variables>
   </user>
         </users>
