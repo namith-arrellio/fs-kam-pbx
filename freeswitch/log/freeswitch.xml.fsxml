@@ -7245,6 +7245,7 @@ the sip-server-addr and sip-server-port to the oreka server
   <extension name="store1_inbound">
     <condition field="destination_number" expression="^(\+?1?7577828734)$">
       <action application="set" data="domain_name=store1.local"/>
+      <action application="set" data="transfer_context=store1"/>
       <action application="set" data="ringback=${us-ring}"/>
       <action application="set" data="call_timeout=30"/>
       <action application="set" data="hangup_after_bridge=true"/>
@@ -7260,6 +7261,7 @@ the sip-server-addr and sip-server-port to the oreka server
   <extension name="store2_inbound">
     <condition field="destination_number" expression="^(\+?1?7372449688)$">
       <action application="set" data="domain_name=store2.local"/>
+      <action application="set" data="transfer_context=store2"/>
       <action application="set" data="ringback=${us-ring}"/>
       <action application="set" data="call_timeout=30"/>
       <action application="set" data="hangup_after_bridge=true"/>
@@ -7268,6 +7270,23 @@ the sip-server-addr and sip-server-port to the oreka server
       <action application="answer"/>
       <action application="sleep" data="1000"/>
       <action application="voicemail" data="default store2.local 1000"/>
+    </condition>
+  </extension>
+  <!-- Park slots for Store 1 -->
+  <extension name="park_store1">
+    <condition field="${sip_refer_to}" expression="store1\.local"/>
+    <condition field="destination_number" expression="^park\+(70[0-2])$">
+      <action application="set" data="fifo_music=local_stream://moh"/>
+      <action application="valet_park" data="store1 $1"/>
+    </condition>
+  </extension>
+
+  <!-- Park slots for Store 2 -->
+  <extension name="park_store2">
+    <condition field="${sip_refer_to}" expression="store2\.local"/>
+    <condition field="destination_number" expression="^park\+(70[0-2])$">
+      <action application="set" data="fifo_music=local_stream://moh"/>
+      <action application="valet_park" data="store2 $1"/>
     </condition>
   </extension>
     <!--
@@ -7352,6 +7371,14 @@ the sip-server-addr and sip-server-port to the oreka server
       </condition>
     </extension>
 
+    <!-- Park slots 700, 701, 702 (toggle: park or retrieve) -->
+   <extension name="park_slot">
+      <condition field="destination_number" expression="^(?:park\+)?(70[0-2])$">
+        <action application="set" data="fifo_music=local_stream://moh"/>
+        <action application="valet_park" data="store1 $1"/>
+      </condition>
+    </extension>
+
     <!-- Outbound calls via Store 1's Telnyx trunk -->
     <extension name="outbound">
       <condition field="destination_number" expression="^(\+?1?\d{10})$">
@@ -7365,6 +7392,15 @@ the sip-server-addr and sip-server-port to the oreka server
     <extension name="local_extension">
       <condition field="destination_number" expression="^(10[01][0-9])$">
         <action application="bridge" data="user/$1@store2.local"/>
+      </condition>
+    </extension>
+
+    <!-- Park slots 700, 701, 702 (toggle: park or retrieve) -->
+    <!-- Park slots 700, 701, 702 with BLF support -->
+   <extension name="park_slot">
+      <condition field="destination_number" expression="^(?:park\+)?(70[0-2])$">
+        <action application="set" data="fifo_music=local_stream://moh"/>
+        <action application="valet_park" data="store2 $1"/>
       </condition>
     </extension>
 
@@ -7992,6 +8028,20 @@ the sip-server-addr and sip-server-port to the oreka server
       <variable name="outbound_caller_id_number" value="+17577828734"/>
     </variables>
   </user>
+  <user id="1001">
+    <params>
+      <param name="password" value="123456"/>
+      <param name="vm-password" value="1001"/>
+    </params>
+    <variables>
+      <variable name="toll_allow" value="domestic,international,local"/>
+      <variable name="accountcode" value="store1-1001"/>
+      <variable name="user_context" value="store1"/>
+      <variable name="effective_caller_id_name" value="Store 1 - Ext 1001"/>
+      <variable name="effective_caller_id_number" value="1001"/>
+      <variable name="outbound_caller_id_number" value="+17577828734"/>
+    </variables>
+  </user>
         </users>
       </group>
     </groups>
@@ -8021,6 +8071,20 @@ the sip-server-addr and sip-server-port to the oreka server
       <variable name="user_context" value="store2"/>
       <variable name="effective_caller_id_name" value="Store 2 - Ext 1000"/>
       <variable name="effective_caller_id_number" value="1000"/>
+      <variable name="outbound_caller_id_number" value="+17372449688"/>
+    </variables>
+  </user>
+  <user id="1002">
+    <params>
+      <param name="password" value="123456"/>
+      <param name="vm-password" value="1002"/>
+    </params>
+    <variables>
+      <variable name="toll_allow" value="domestic,international,local"/>
+      <variable name="accountcode" value="store2-1002"/>
+      <variable name="user_context" value="store2"/>
+      <variable name="effective_caller_id_name" value="Store 2 - Ext 1002"/>
+      <variable name="effective_caller_id_number" value="1002"/>
       <variable name="outbound_caller_id_number" value="+17372449688"/>
     </variables>
   </user>

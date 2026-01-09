@@ -3,6 +3,7 @@
   <extension name="store1_inbound">
     <condition field="destination_number" expression="^(\+?1?7577828734)$">
       <action application="set" data="domain_name=store1.local"/>
+      <action application="set" data="transfer_context=store1"/>
       <action application="set" data="ringback=${us-ring}"/>
       <action application="set" data="call_timeout=30"/>
       <action application="set" data="hangup_after_bridge=true"/>
@@ -18,6 +19,7 @@
   <extension name="store2_inbound">
     <condition field="destination_number" expression="^(\+?1?7372449688)$">
       <action application="set" data="domain_name=store2.local"/>
+      <action application="set" data="transfer_context=store2"/>
       <action application="set" data="ringback=${us-ring}"/>
       <action application="set" data="call_timeout=30"/>
       <action application="set" data="hangup_after_bridge=true"/>
