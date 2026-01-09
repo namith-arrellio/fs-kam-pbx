@@ -1,0 +1,5 @@
+id(int) username(str) domain(str) password(str) ha1(str)
+1:1000:store1.local:store1_ext1000_password:
+2:1001:store1.local:store1_ext1001_password:
+3:1000:store2.local:store2_ext1000_password:
+4:1001:store2.local:store2_ext1001_password:
