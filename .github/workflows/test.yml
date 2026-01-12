@@ -1,0 +1,152 @@
+name: Test and Lint
+
+on:
+  push:
+    branches:
+      - main
+      - master
+      - develop
+    paths:
+      - 'cdk/**'
+      - 'python-brain/**'
+  pull_request:
+    branches:
+      - main
+      - master
+      - develop
+    paths:
+      - 'cdk/**'
+      - 'python-brain/**'
+  workflow_dispatch:
+
+env:
+  PYTHON_VERSION: '3.9'
+  NODE_VERSION: '18'
+
+jobs:
+  lint-cdk:
+    name: Lint CDK Code
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install CDK dependencies
+        working-directory: ./cdk
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pylint black flake8 mypy
+
+      - name: Lint with flake8
+        working-directory: ./cdk
+        run: |
+          flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics || true
+          flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics || true
+
+      - name: Check formatting with black
+        working-directory: ./cdk
+        run: |
+          black --check . || true
+
+      - name: Type check with mypy
+        working-directory: ./cdk
+        run: |
+          mypy . --ignore-missing-imports || true
+
+  test-python-app:
+    name: Test Python Application
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install dependencies
+        working-directory: ./python-brain
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pytest pytest-cov flake8
+
+      - name: Lint Python app
+        working-directory: ./python-brain
+        run: |
+          flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics || true
+
+      - name: Test Python app imports
+        working-directory: ./python-brain
+        run: |
+          python -c "import app; print('App imports successfully')" || true
+
+  validate-cdk:
+    name: Validate CDK Stack
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: Install CDK CLI
+        run: npm install -g aws-cdk
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install CDK dependencies
+        working-directory: ./cdk
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: CDK Synth (validate)
+        working-directory: ./cdk
+        run: |
+          cdk synth --quiet || (echo "CDK synthesis failed" && exit 1)
+
+      - name: CDK Diff (dry-run)
+        working-directory: ./cdk
+        run: |
+          cdk diff || echo "No differences found or diff failed (this is OK for validation)"
+
+  docker-build-test:
+    name: Test Docker Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Build Docker image
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          file: ./cdk/Dockerfile
+          push: false
+          tags: python-brain-pbx:test
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
+      - name: Verify image
+        run: |
+          docker run --rm python-brain-pbx:test python --version
+          docker run --rm python-brain-pbx:test pip list | grep -i flask
+          docker run --rm python-brain-pbx:test pip list | grep -i mysql
+

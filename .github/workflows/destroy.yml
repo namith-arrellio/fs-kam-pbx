@@ -1,0 +1,81 @@
+name: Destroy CDK Stack
+
+on:
+  workflow_dispatch:
+    inputs:
+      stack_name:
+        description: 'CDK Stack name to destroy'
+        required: true
+        default: 'AsteriskPbxStack'
+      confirm:
+        description: 'Type "destroy" to confirm'
+        required: true
+        type: string
+
+env:
+  AWS_REGION: us-east-1
+  PYTHON_VERSION: '3.9'
+  NODE_VERSION: '18'
+
+jobs:
+  destroy-stack:
+    name: Destroy CDK Stack
+    runs-on: ubuntu-latest
+    if: github.event.inputs.confirm == 'destroy'
+    environment:
+      name: production
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: Install CDK CLI
+        run: npm install -g aws-cdk
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Get AWS account ID
+        id: aws-account
+        run: |
+          ACCOUNT_ID=$(aws sts get-caller-identity --query Account --output text)
+          echo "account_id=$ACCOUNT_ID" >> $GITHUB_OUTPUT
+
+      - name: Set up Python dependencies
+        working-directory: ./cdk
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: List stacks
+        working-directory: ./cdk
+        run: cdk list
+
+      - name: Destroy stack
+        working-directory: ./cdk
+        run: |
+          echo "⚠️  WARNING: This will destroy the stack: ${{ github.event.inputs.stack_name }}"
+          cdk destroy ${{ github.event.inputs.stack_name }} --force
+        env:
+          CDK_DEFAULT_ACCOUNT: ${{ steps.aws-account.outputs.account_id }}
+          CDK_DEFAULT_REGION: ${{ env.AWS_REGION }}
+
+      - name: Verify destruction
+        run: |
+          aws cloudformation describe-stacks \
+            --stack-name ${{ github.event.inputs.stack_name }} \
+            2>&1 | grep -q "does not exist" && echo "✅ Stack destroyed successfully" || echo "⚠️  Stack may still exist"
+

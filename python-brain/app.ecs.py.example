@@ -1,0 +1,56 @@
+# Example ECS-compatible version of app.py
+# Copy this to app.py or update app.py to use environment variables
+
+import os
+from flask import Flask, jsonify
+import mysql.connector
+from greenswitch import InboundESL
+
+app = Flask(__name__)
+
+# --- DB connection using environment variables ---
+db_config = {
+    "host": os.getenv("MYSQL_HOST", "127.0.0.1"),
+    "user": os.getenv("MYSQL_USER", "root"),
+    "password": os.getenv("MYSQL_PASSWORD", "root"),
+    "database": os.getenv("MYSQL_DATABASE", "voipdb"),
+}
+
+db = mysql.connector.connect(**db_config)
+
+# --- FreeSWITCH ESL connection using environment variables ---
+fs_host = os.getenv("FS_HOST", "127.0.0.1")
+fs_port = int(os.getenv("FS_PORT", "8021"))
+fs_password = os.getenv("FS_PASSWORD", "ClueCon")
+fs_conn = InboundESL(host=fs_host, port=fs_port, password=fs_password)
+
+
+@app.route("/fs-status")
+def fs_status():
+    try:
+        if not fs_conn.connected():
+            fs_conn.connect()
+        info = fs_conn.api("status")
+        return jsonify({"status": "connected", "info": info})
+    except Exception as e:
+        return jsonify({"status": "error", "message": str(e)})
+
+
+@app.route("/db-test")
+def db_test():
+    try:
+        cur = db.cursor()
+        cur.execute("SHOW DATABASES;")
+        return jsonify({"databases": [r[0] for r in cur.fetchall()]})
+    except Exception as e:
+        return jsonify({"status": "error", "message": str(e)})
+
+
+@app.route("/health")
+def health():
+    return jsonify({"status": "healthy"})
+
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5001, debug=False)
+
