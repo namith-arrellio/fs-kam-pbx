@@ -3551,8 +3551,8 @@ the sip-server-addr and sip-server-port to the oreka server
     <!--
         DO NOT USE HOSTNAMES, ONLY IP ADDRESSES IN THESE SETTINGS!
     -->
-    <param name="rtp-ip" value="2600:382:2986:3712:827:1eb3:fa5a:3d98"/>
-    <param name="sip-ip" value="2600:382:2986:3712:827:1eb3:fa5a:3d98"/>
+    <param name="rtp-ip" value="2600:381:fb06:aaa6:a86e:ffe0:9a33:4c86"/>
+    <param name="sip-ip" value="2600:381:fb06:aaa6:a86e:ffe0:9a33:4c86"/>
     <!-- Shouldn't set these on IPv6 -->
     <!--<param name="ext-rtp-ip" value="auto-nat"/>-->
     <!--<param name="ext-sip-ip" value="auto-nat"/>-->
@@ -3766,9 +3766,9 @@ the sip-server-addr and sip-server-port to the oreka server
     <param name="use-rtp-timer" value="true"/>
     <param name="rtp-timer-name" value="soft"/>
     <!-- ip address to use for rtp -->
-    <param name="rtp-ip" value="2600:382:2986:3712:827:1eb3:fa5a:3d98"/>
+    <param name="rtp-ip" value="2600:381:fb06:aaa6:a86e:ffe0:9a33:4c86"/>
     <!-- ip address to bind to -->
-    <param name="sip-ip" value="2600:382:2986:3712:827:1eb3:fa5a:3d98"/>
+    <param name="sip-ip" value="2600:381:fb06:aaa6:a86e:ffe0:9a33:4c86"/>
     <param name="hold-music" value="local_stream://moh"/>
     <!--<param name="enable-100rel" value="false"/>-->
     <!--<param name="disable-srv503" value="true"/>-->
@@ -5446,15 +5446,15 @@ the sip-server-addr and sip-server-port to the oreka server
     </profile>
 
     <profile name="default-v6">
-      <param name="bind-local" value="[2600:382:2986:3712:827:1eb3:fa5a:3d98]:8081"/>
-      <param name="bind-local" value="[2600:382:2986:3712:827:1eb3:fa5a:3d98]:8082" secure="true"/>
+      <param name="bind-local" value="[2600:381:fb06:aaa6:a86e:ffe0:9a33:4c86]:8081"/>
+      <param name="bind-local" value="[2600:381:fb06:aaa6:a86e:ffe0:9a33:4c86]:8082" secure="true"/>
       <param name="force-register-domain" value="auto"/>
       <param name="secure-combined" value="/opt/homebrew/Cellar/freeswitch/1.10.12/etc/freeswitch/tls/wss.pem"/>
       <param name="secure-chain" value="/opt/homebrew/Cellar/freeswitch/1.10.12/etc/freeswitch/tls/wss.pem"/>
       <param name="userauth" value="true"/>
       <!-- setting this to true will allow anyone to register even with no account so use with care -->
       <param name="blind-reg" value="false"/>
-      <param name="rtp-ip" value="2600:382:2986:3712:827:1eb3:fa5a:3d98"/>
+      <param name="rtp-ip" value="2600:381:fb06:aaa6:a86e:ffe0:9a33:4c86"/>
       <!--  <param name="ext-rtp-ip" value=""/> -->
       <param name="outbound-codec-string" value="opus,h264,vp8"/>
       <param name="inbound-codec-string" value="opus,h264,vp8"/>
@@ -7243,33 +7243,17 @@ the sip-server-addr and sip-server-port to the oreka server
     -->
   <!-- Store 1 Inbound - +17577828734 -->
   <extension name="store1_inbound">
-    <condition field="destination_number" expression="^(\+?1?7577828734)$">
-      <action application="set" data="domain_name=store1.local"/>
-      <action application="set" data="transfer_context=store1"/>
-      <action application="set" data="ringback=${us-ring}"/>
-      <action application="set" data="call_timeout=30"/>
-      <action application="set" data="hangup_after_bridge=true"/>
-      <action application="set" data="continue_on_fail=true"/>
-      <action application="bridge" data="{leg_timeout=30,ignore_early_media=true}user/1000@store1.local,user/1001@store1.local"/>
-      <action application="answer"/>
-      <action application="sleep" data="1000"/>
-      <action application="voicemail" data="default store1.local 1000"/>
+    <condition field="destination_number" expression="^(\+?1?)?7577828734$|^17577828734$">
+      <action application="log" data="INFO [PYTHON-ROUTE] Matched store1_inbound: ${destination_number}, connecting to socket"/>
+      <action application="socket" data="127.0.0.1:5002 async full"/>
     </condition>
   </extension>
 
   <!-- Store 2 Inbound - +17372449688 -->
   <extension name="store2_inbound">
-    <condition field="destination_number" expression="^(\+?1?7372449688)$">
-      <action application="set" data="domain_name=store2.local"/>
-      <action application="set" data="transfer_context=store2"/>
-      <action application="set" data="ringback=${us-ring}"/>
-      <action application="set" data="call_timeout=30"/>
-      <action application="set" data="hangup_after_bridge=true"/>
-      <action application="set" data="continue_on_fail=true"/>
-      <action application="bridge" data="{leg_timeout=30,ignore_early_media=true}user/1000@store2.local,user/1001@store2.local"/>
-      <action application="answer"/>
-      <action application="sleep" data="1000"/>
-      <action application="voicemail" data="default store2.local 1000"/>
+    <condition field="destination_number" expression="^(\+?1?)?7372449688$|^17372449688$">
+      <action application="log" data="INFO [PYTHON-ROUTE] Matched store2_inbound: ${destination_number}, connecting to socket"/>
+      <action application="socket" data="127.0.0.1:5002 async full"/>
     </condition>
   </extension>
   <!-- Park slots for Store 1 -->
