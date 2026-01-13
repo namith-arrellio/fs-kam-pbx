@@ -3,7 +3,12 @@
   <extension name="park_store1">
     <condition field="${sip_refer_to}" expression="store1\.local"/>
     <condition field="destination_number" expression="^park\+(70[0-2])$">
-      <action application="set" data="fifo_music=local_stream://moh"/>
+      <action application="set" data="fifo_music=file:///opt/homebrew/Cellar/freeswitch/1.10.12/share/freeswitch/sounds/music/custom_hold.mp4"/>
+      <action application="set" data="park_music=file:///opt/homebrew/Cellar/freeswitch/1.10.12/share/freeswitch/sounds/music/custom_hold.mp4"/>
+      <action application="set" data="hold_music=file:///opt/homebrew/Cellar/freeswitch/1.10.12/share/freeswitch/sounds/music/custom_hold.mp4"/>
+      <action application="export" data="fifo_music=file:///opt/homebrew/Cellar/freeswitch/1.10.12/share/freeswitch/sounds/music/custom_hold.mp4"/>
+      <action application="export" data="park_music=file:///opt/homebrew/Cellar/freeswitch/1.10.12/share/freeswitch/sounds/music/custom_hold.mp4"/>
+      <action application="export" data="hold_music=file:///opt/homebrew/Cellar/freeswitch/1.10.12/share/freeswitch/sounds/music/custom_hold.mp4"/>
       <action application="valet_park" data="store1 $1"/>
     </condition>
   </extension>

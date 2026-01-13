@@ -825,7 +825,7 @@ enum AVColorRange {
 
     <queue name="support@default">
       <param name="strategy" value="longest-idle-agent"/>
-      <param name="moh-sound" value="local_stream://moh"/>
+      <param name="moh-sound" value="file:///opt/homebrew/Cellar/freeswitch/1.10.12/share/freeswitch/sounds/music/custom_hold.mp4"/>
       <!--<param name="record-template" value="/opt/homebrew/Cellar/freeswitch/1.10.12/var/lib/freeswitch/recordings/${strftime(%Y-%m-%d-%H-%M-%S)}.${destination_number}.${caller_id_number}.${uuid}.wav"/>-->
       <param name="time-base-score" value="system"/>
       <param name="max-wait-time" value="0"/>
@@ -1070,7 +1070,7 @@ enum AVColorRange {
       <!-- File to play endlessly (nobody will ever be able to talk) -->
       <!-- <param name="perpetual-sound" value="perpetual.wav"/> -->
       <!-- File to play when you're alone (music on hold)-->
-      <param name="moh-sound" value="local_stream://moh"/>
+      <param name="moh-sound" value="file:///opt/homebrew/Cellar/freeswitch/1.10.12/share/freeswitch/sounds/music/custom_hold.mp4"/>
       <!-- File to play when you join the conference -->
       <param name="enter-sound" value="tone_stream://%(200,0,500,600,700)"/>
       <!-- File to play when you leave the conference -->
@@ -1130,7 +1130,7 @@ enum AVColorRange {
       <param name="muted-sound" value="conference/conf-muted.wav"/>
       <param name="unmuted-sound" value="conference/conf-unmuted.wav"/>
       <param name="alone-sound" value="conference/conf-alone.wav"/>
-      <param name="moh-sound" value="local_stream://moh"/>
+      <param name="moh-sound" value="file:///opt/homebrew/Cellar/freeswitch/1.10.12/share/freeswitch/sounds/music/custom_hold.mp4"/>
       <param name="enter-sound" value="tone_stream://%(200,0,500,600,700)"/>
       <param name="exit-sound" value="tone_stream://%(500,0,300,200,100,50,25)"/>
       <param name="kicked-sound" value="conference/conf-kicked.wav"/>
@@ -1155,7 +1155,7 @@ enum AVColorRange {
       <param name="muted-sound" value="conference/conf-muted.wav"/>
       <param name="unmuted-sound" value="conference/conf-unmuted.wav"/>
       <param name="alone-sound" value="conference/conf-alone.wav"/>
-      <param name="moh-sound" value="local_stream://moh"/>
+      <param name="moh-sound" value="file:///opt/homebrew/Cellar/freeswitch/1.10.12/share/freeswitch/sounds/music/custom_hold.mp4"/>
       <param name="enter-sound" value="tone_stream://%(200,0,500,600,700)"/>
       <param name="exit-sound" value="tone_stream://%(500,0,300,200,100,50,25)"/>
       <param name="kicked-sound" value="conference/conf-kicked.wav"/>
@@ -1194,7 +1194,7 @@ enum AVColorRange {
       <param name="muted-sound" value="conference/conf-muted.wav"/>
       <param name="unmuted-sound" value="conference/conf-unmuted.wav"/>
       <param name="alone-sound" value="conference/conf-alone.wav"/>
-      <param name="moh-sound" value="local_stream://moh"/>
+      <param name="moh-sound" value="file:///opt/homebrew/Cellar/freeswitch/1.10.12/share/freeswitch/sounds/music/custom_hold.mp4"/>
       <param name="enter-sound" value="tone_stream://%(200,0,500,600,700)"/>
       <param name="exit-sound" value="tone_stream://%(500,0,300,200,100,50,25)"/>
       <param name="kicked-sound" value="conference/conf-kicked.wav"/>
@@ -1231,7 +1231,7 @@ enum AVColorRange {
       <param name="muted-sound" value="conference/conf-muted.wav"/>
       <param name="unmuted-sound" value="conference/conf-unmuted.wav"/>
       <param name="alone-sound" value="conference/conf-alone.wav"/>
-      <param name="moh-sound" value="local_stream://moh"/>
+      <param name="moh-sound" value="file:///opt/homebrew/Cellar/freeswitch/1.10.12/share/freeswitch/sounds/music/custom_hold.mp4"/>
       <param name="enter-sound" value="tone_stream://%(200,0,500,600,700)"/>
       <param name="exit-sound" value="tone_stream://%(500,0,300,200,100,50,25)"/>
       <param name="kicked-sound" value="conference/conf-kicked.wav"/>
@@ -1267,7 +1267,7 @@ enum AVColorRange {
       <param name="muted-sound" value="conference/conf-muted.wav"/>
       <param name="unmuted-sound" value="conference/conf-unmuted.wav"/>
       <param name="alone-sound" value="conference/conf-alone.wav"/>
-      <param name="moh-sound" value="local_stream://moh"/>
+      <param name="moh-sound" value="file:///opt/homebrew/Cellar/freeswitch/1.10.12/share/freeswitch/sounds/music/custom_hold.mp4"/>
       <param name="enter-sound" value="tone_stream://%(200,0,500,600,700)"/>
       <param name="exit-sound" value="tone_stream://%(500,0,300,200,100,50,25)"/>
       <param name="kicked-sound" value="conference/conf-kicked.wav"/>
@@ -1302,7 +1302,7 @@ enum AVColorRange {
       <param name="muted-sound" value="conference/conf-muted.wav"/>
       <param name="unmuted-sound" value="conference/conf-unmuted.wav"/>
       <param name="alone-sound" value="conference/conf-alone.wav"/>
-      <param name="moh-sound" value="local_stream://moh"/>
+      <param name="moh-sound" value="file:///opt/homebrew/Cellar/freeswitch/1.10.12/share/freeswitch/sounds/music/custom_hold.mp4"/>
       <param name="enter-sound" value="tone_stream://%(200,0,500,600,700)"/>
       <param name="exit-sound" value="tone_stream://%(500,0,300,200,100,50,25)"/>
       <param name="kicked-sound" value="conference/conf-kicked.wav"/>
@@ -1337,7 +1337,7 @@ enum AVColorRange {
       <param name="muted-sound" value="conference/conf-muted.wav"/>
       <param name="unmuted-sound" value="conference/conf-unmuted.wav"/>
       <param name="alone-sound" value="conference/conf-alone.wav"/>
-      <param name="moh-sound" value="local_stream://moh"/>
+      <param name="moh-sound" value="file:///opt/homebrew/Cellar/freeswitch/1.10.12/share/freeswitch/sounds/music/custom_hold.mp4"/>
       <param name="enter-sound" value="tone_stream://%(200,0,500,600,700)"/>
       <param name="exit-sound" value="tone_stream://%(500,0,300,200,100,50,25)"/>
       <param name="kicked-sound" value="conference/conf-kicked.wav"/>
@@ -3020,7 +3020,7 @@ the sip-server-addr and sip-server-port to the oreka server
     <!--<param name="dual-streams" value="true"/>-->
 
     <!--file to play when calls are on hold-->
-    <param name="hold-file" value="local_stream://moh"/>
+    <param name="hold-file" value="file:///opt/homebrew/Cellar/freeswitch/1.10.12/share/freeswitch/sounds/music/custom_hold.mp4"/>
     <!--Timer to use for hold music (i'd leave this one commented)-->
     <!--<param name="timer-name" value="soft"/>-->
 
@@ -3522,7 +3522,7 @@ the sip-server-addr and sip-server-port to the oreka server
     <param name="dtmf-duration" value="2000"/>
     <param name="inbound-codec-prefs" value="OPUS,G722,PCMU,PCMA,H264,VP8"/>
     <param name="outbound-codec-prefs" value="OPUS,G722,PCMU,PCMA,H264,VP8"/>
-    <param name="hold-music" value="local_stream://moh"/>
+    <param name="hold-music" value="file:///opt/homebrew/Cellar/freeswitch/1.10.12/share/freeswitch/sounds/music/custom_hold.mp4"/>
     <param name="rtp-timer-name" value="soft"/>
     <!--<param name="enable-100rel" value="true"/>-->
     <!--<param name="disable-srv503" value="true"/>-->
@@ -3551,8 +3551,8 @@ the sip-server-addr and sip-server-port to the oreka server
     <!--
         DO NOT USE HOSTNAMES, ONLY IP ADDRESSES IN THESE SETTINGS!
     -->
-    <param name="rtp-ip" value="2600:381:fb06:aaa6:a86e:ffe0:9a33:4c86"/>
-    <param name="sip-ip" value="2600:381:fb06:aaa6:a86e:ffe0:9a33:4c86"/>
+    <param name="rtp-ip" value="2600:381:fb06:aaa6:e983:5d4f:2862:ca10"/>
+    <param name="sip-ip" value="2600:381:fb06:aaa6:e983:5d4f:2862:ca10"/>
     <!-- Shouldn't set these on IPv6 -->
     <!--<param name="ext-rtp-ip" value="auto-nat"/>-->
     <!--<param name="ext-sip-ip" value="auto-nat"/>-->
@@ -3680,7 +3680,7 @@ the sip-server-addr and sip-server-port to the oreka server
     <param name="dtmf-duration" value="2000"/>
     <param name="inbound-codec-prefs" value="OPUS,G722,PCMU,PCMA,H264,VP8"/>
     <param name="outbound-codec-prefs" value="OPUS,G722,PCMU,PCMA,H264,VP8"/>
-    <param name="hold-music" value="local_stream://moh"/>
+    <param name="hold-music" value="file:///opt/homebrew/Cellar/freeswitch/1.10.12/share/freeswitch/sounds/music/custom_hold.mp4"/>
     <param name="rtp-timer-name" value="soft"/>
     <!--<param name="enable-100rel" value="true"/>-->
     <!--<param name="disable-srv503" value="true"/>-->
@@ -3766,10 +3766,10 @@ the sip-server-addr and sip-server-port to the oreka server
     <param name="use-rtp-timer" value="true"/>
     <param name="rtp-timer-name" value="soft"/>
     <!-- ip address to use for rtp -->
-    <param name="rtp-ip" value="2600:381:fb06:aaa6:a86e:ffe0:9a33:4c86"/>
+    <param name="rtp-ip" value="2600:381:fb06:aaa6:e983:5d4f:2862:ca10"/>
     <!-- ip address to bind to -->
-    <param name="sip-ip" value="2600:381:fb06:aaa6:a86e:ffe0:9a33:4c86"/>
-    <param name="hold-music" value="local_stream://moh"/>
+    <param name="sip-ip" value="2600:381:fb06:aaa6:e983:5d4f:2862:ca10"/>
+    <param name="hold-music" value="file:///opt/homebrew/Cellar/freeswitch/1.10.12/share/freeswitch/sounds/music/custom_hold.mp4"/>
     <!--<param name="enable-100rel" value="false"/>-->
     <!--<param name="disable-srv503" value="true"/>-->
     <param name="apply-inbound-acl" value="domains"/>
@@ -3976,7 +3976,7 @@ the sip-server-addr and sip-server-port to the oreka server
     <param name="rtp-ip" value="auto"/>
     <!-- ip address to bind to, DO NOT USE HOSTNAMES ONLY IP ADDRESSES -->
     <param name="sip-ip" value="auto"/>
-    <param name="hold-music" value="local_stream://moh"/>
+    <param name="hold-music" value="file:///opt/homebrew/Cellar/freeswitch/1.10.12/share/freeswitch/sounds/music/custom_hold.mp4"/>
     <param name="apply-nat-acl" value="rfc1918.auto"/>
 
 
@@ -5446,15 +5446,15 @@ the sip-server-addr and sip-server-port to the oreka server
     </profile>
 
     <profile name="default-v6">
-      <param name="bind-local" value="[2600:381:fb06:aaa6:a86e:ffe0:9a33:4c86]:8081"/>
-      <param name="bind-local" value="[2600:381:fb06:aaa6:a86e:ffe0:9a33:4c86]:8082" secure="true"/>
+      <param name="bind-local" value="[2600:381:fb06:aaa6:e983:5d4f:2862:ca10]:8081"/>
+      <param name="bind-local" value="[2600:381:fb06:aaa6:e983:5d4f:2862:ca10]:8082" secure="true"/>
       <param name="force-register-domain" value="auto"/>
       <param name="secure-combined" value="/opt/homebrew/Cellar/freeswitch/1.10.12/etc/freeswitch/tls/wss.pem"/>
       <param name="secure-chain" value="/opt/homebrew/Cellar/freeswitch/1.10.12/etc/freeswitch/tls/wss.pem"/>
       <param name="userauth" value="true"/>
       <!-- setting this to true will allow anyone to register even with no account so use with care -->
       <param name="blind-reg" value="false"/>
-      <param name="rtp-ip" value="2600:381:fb06:aaa6:a86e:ffe0:9a33:4c86"/>
+      <param name="rtp-ip" value="2600:381:fb06:aaa6:e983:5d4f:2862:ca10"/>
       <!--  <param name="ext-rtp-ip" value=""/> -->
       <param name="outbound-codec-string" value="opus,h264,vp8"/>
       <param name="inbound-codec-string" value="opus,h264,vp8"/>
@@ -6342,7 +6342,7 @@ the sip-server-addr and sip-server-port to the oreka server
       <condition field="destination_number" expression="^9000$">
 	<!--<key> <light> <label> <user> <host> <profile> <action_name> <action>-->
 	<action application="eval" data="${snom_bind_key(2 on DND ${sip_from_user} ${sip_from_host} ${sofia_profile_name} message api+uuid_transfer ${uuid} 9001)}"/>
-	<action application="playback" data="local_stream://moh"/>
+	<action application="playback" data="file:///opt/homebrew/Cellar/freeswitch/1.10.12/share/freeswitch/sounds/music/custom_hold.mp4"/>
       </condition>
     </extension>
 
@@ -6419,7 +6419,7 @@ the sip-server-addr and sip-server-port to the oreka server
 	<action application="bind_meta_app" data="3 b s execute_extension::cf XML features"/>
 	<action application="bind_meta_app" data="4 b s execute_extension::att_xfer XML features"/>
 	<action application="set" data="ringback=${us-ring}"/>
-	<action application="set" data="transfer_ringback=local_stream://moh"/>
+	<action application="set" data="transfer_ringback=file:///opt/homebrew/Cellar/freeswitch/1.10.12/share/freeswitch/sounds/music/custom_hold.mp4"/>
 	<action application="set" data="call_timeout=30"/>
 	<!-- <action application="set" data="sip_exclude_contact=${network_addr}"/> -->
 	<action application="set" data="hangup_after_bridge=true"/>
@@ -6481,7 +6481,7 @@ the sip-server-addr and sip-server-port to the oreka server
     <!-- voicemail operator extension -->
     <extension name="operator">
       <condition field="destination_number" expression="^(operator|0)$">
-	<action application="set" data="transfer_ringback=local_stream://moh"/>
+	<action application="set" data="transfer_ringback=file:///opt/homebrew/Cellar/freeswitch/1.10.12/share/freeswitch/sounds/music/custom_hold.mp4"/>
 	<action application="transfer" data="1000 XML features"/>
       </condition>
     </extension>
@@ -6681,7 +6681,7 @@ the sip-server-addr and sip-server-port to the oreka server
     -->
     <extension name="park">
       <condition field="destination_number" expression="^5900$">
-	<action application="set" data="fifo_music=local_stream://moh"/>
+	<action application="set" data="fifo_music=file:///opt/homebrew/Cellar/freeswitch/1.10.12/share/freeswitch/sounds/music/custom_hold.mp4"/>
 	<action application="fifo" data="5900@${domain_name} in"/>
       </condition>
     </extension>
@@ -6730,7 +6730,7 @@ the sip-server-addr and sip-server-port to the oreka server
     <extension name="park">
       <condition field="source" expression="mod_sofia"/>
       <condition field="destination_number" expression="park\+(\d+)">
-	<action application="fifo" data="$1@${domain_name} in undef local_stream://moh"/>
+	<action application="fifo" data="$1@${domain_name} in undef file:///opt/homebrew/Cellar/freeswitch/1.10.12/share/freeswitch/sounds/music/custom_hold.mp4"/>
       </condition>
     </extension>
     <!--
@@ -6759,7 +6759,7 @@ the sip-server-addr and sip-server-port to the oreka server
       <condition field="destination_number" expression="callpark"/>
       <condition field="${sip_refer_to}">
 	<expression><![CDATA[<sip:callpark@${domain_name};orbit=(\d+)>]]></expression>
-	<action application="fifo" data="$1@${domain_name} in undef local_stream://moh"/>
+	<action application="fifo" data="$1@${domain_name} in undef file:///opt/homebrew/Cellar/freeswitch/1.10.12/share/freeswitch/sounds/music/custom_hold.mp4"/>
       </condition>
     </extension>
 
@@ -6838,7 +6838,7 @@ the sip-server-addr and sip-server-port to the oreka server
     <!-- Send a 183 and use music as the ringtone. (early media) -->
     <extension name="ringback_183_music_ring">
       <condition field="destination_number" expression="^9182$">
-	<action application="set" data="ringback=local_stream://moh"/>
+	<action application="set" data="ringback=file:///opt/homebrew/Cellar/freeswitch/1.10.12/share/freeswitch/sounds/music/custom_hold.mp4"/>
 	<action application="bridge" data="{ignore_early_media=true}loopback/wait"/>
       </condition>
     </extension>
@@ -6855,7 +6855,7 @@ the sip-server-addr and sip-server-port to the oreka server
     <!-- Answer the call and use music as the ringtone. (post answer) -->
     <extension name="ringback_post_answer_music">
       <condition field="destination_number" expression="^9184$">
-	<action application="set" data="transfer_ringback=local_stream://moh"/>
+	<action application="set" data="transfer_ringback=file:///opt/homebrew/Cellar/freeswitch/1.10.12/share/freeswitch/sounds/music/custom_hold.mp4"/>
 	<action application="answer"/>
 	<action application="bridge" data="{ignore_early_media=true}loopback/wait"/>
       </condition>
@@ -6929,10 +6929,10 @@ the sip-server-addr and sip-server-port to the oreka server
       <condition field="${rtp_has_crypto}" expression="^(AES_CM_128_HMAC_SHA1_32|AES_CM_128_HMAC_SHA1_80)$">
 	<action application="answer"/>
 	<action application="execute_extension" data="is_secure XML features"/>
-	<action application="playback" data="local_stream://moh"/>
+	<action application="playback" data="file:///opt/homebrew/Cellar/freeswitch/1.10.12/share/freeswitch/sounds/music/custom_hold.mp4"/>
 	<anti-action application="answer"/>
 	<anti-action application="playback" data="silence_stream://2000"/>
-	<anti-action application="playback" data="local_stream://moh"/>
+	<anti-action application="playback" data="file:///opt/homebrew/Cellar/freeswitch/1.10.12/share/freeswitch/sounds/music/custom_hold.mp4"/>
       </condition>
     </extension>
 
@@ -7126,7 +7126,7 @@ the sip-server-addr and sip-server-port to the oreka server
       <condition field="destination_number" expression="^(.*)$">
 	<action application="acknowledge_call"/>
 	<action application="ring_ready"/>
-	<action application="playback" data="local_stream://moh"/>
+	<action application="playback" data="file:///opt/homebrew/Cellar/freeswitch/1.10.12/share/freeswitch/sounds/music/custom_hold.mp4"/>
       </condition>
     </extension>
 
@@ -7169,7 +7169,7 @@ the sip-server-addr and sip-server-port to the oreka server
 
     <extension name="please_hold">
       <condition field="destination_number" expression="^(10[01][0-9])$">
-	<action application="set" data="transfer_ringback=local_stream://moh"/>
+	<action application="set" data="transfer_ringback=file:///opt/homebrew/Cellar/freeswitch/1.10.12/share/freeswitch/sounds/music/custom_hold.mp4"/>
 	<action application="answer"/>
 	<action application="sleep" data="1500"/>
 	<action application="playback" data="ivr/ivr-hold_connect_call.wav"/>
@@ -7260,7 +7260,12 @@ the sip-server-addr and sip-server-port to the oreka server
   <extension name="park_store1">
     <condition field="${sip_refer_to}" expression="store1\.local"/>
     <condition field="destination_number" expression="^park\+(70[0-2])$">
-      <action application="set" data="fifo_music=local_stream://moh"/>
+      <action application="set" data="fifo_music=file:///opt/homebrew/Cellar/freeswitch/1.10.12/share/freeswitch/sounds/music/custom_hold.mp4"/>
+      <action application="set" data="park_music=file:///opt/homebrew/Cellar/freeswitch/1.10.12/share/freeswitch/sounds/music/custom_hold.mp4"/>
+      <action application="set" data="hold_music=file:///opt/homebrew/Cellar/freeswitch/1.10.12/share/freeswitch/sounds/music/custom_hold.mp4"/>
+      <action application="export" data="fifo_music=file:///opt/homebrew/Cellar/freeswitch/1.10.12/share/freeswitch/sounds/music/custom_hold.mp4"/>
+      <action application="export" data="park_music=file:///opt/homebrew/Cellar/freeswitch/1.10.12/share/freeswitch/sounds/music/custom_hold.mp4"/>
+      <action application="export" data="hold_music=file:///opt/homebrew/Cellar/freeswitch/1.10.12/share/freeswitch/sounds/music/custom_hold.mp4"/>
       <action application="valet_park" data="store1 $1"/>
     </condition>
   </extension>
@@ -7358,7 +7363,12 @@ the sip-server-addr and sip-server-port to the oreka server
     <!-- Park slots 700, 701, 702 (toggle: park or retrieve) -->
    <extension name="park_slot">
       <condition field="destination_number" expression="^(?:park\+)?(70[0-2])$">
-        <action application="set" data="fifo_music=local_stream://moh"/>
+        <action application="set" data="fifo_music=file:///opt/homebrew/Cellar/freeswitch/1.10.12/share/freeswitch/sounds/music/custom_hold.mp4"/>
+        <action application="set" data="park_music=file:///opt/homebrew/Cellar/freeswitch/1.10.12/share/freeswitch/sounds/music/custom_hold.mp4"/>
+        <action application="set" data="hold_music=file:///opt/homebrew/Cellar/freeswitch/1.10.12/share/freeswitch/sounds/music/custom_hold.mp4"/>
+        <action application="export" data="park_music=file:///opt/homebrew/Cellar/freeswitch/1.10.12/share/freeswitch/sounds/music/custom_hold.mp4"/>
+        <action application="export" data="hold_music=file:///opt/homebrew/Cellar/freeswitch/1.10.12/share/freeswitch/sounds/music/custom_hold.mp4"/>
+        <action application="export" data="fifo_music=file:///opt/homebrew/Cellar/freeswitch/1.10.12/share/freeswitch/sounds/music/custom_hold.mp4"/>
         <action application="valet_park" data="store1 $1"/>
       </condition>
     </extension>
